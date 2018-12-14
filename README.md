@@ -15,3 +15,4 @@ We want to keep the instance small, the aim of the town is to facilitate a discu
 
 - One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
 - One must wear a **Black & White avatar**.
+- One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
