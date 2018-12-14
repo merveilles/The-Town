@@ -11,8 +11,7 @@ We want to keep the instance small, the aim of the town is to facilitate a discu
 - [Somnius](https://merveilles.town/@somnius)
 - [Devine Lu Linvega](https://merveilles.town/@neauoire)
 
-<img src='https://github.com/Merveilles/The-Town/blob/master/TOWN.jpg?raw=true' width='600'/>
-
 ## Rules
 
-- Black and White avatars.
+- One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
+- One must wear a Black & White avatar.
