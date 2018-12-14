@@ -1,6 +1,6 @@
 # The-Town
 
-Resources for the **Merveilles Town** instance.
+Resources for the [Merveilles Town](https://merveilles.town) instance.
 
 ## Invite Only
 
