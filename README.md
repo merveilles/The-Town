@@ -11,7 +11,7 @@ We want to keep the instance small, the aim of the town is to facilitate a discu
 - [Somnius](https://merveilles.town/@somnius)
 - [Devine Lu Linvega](https://merveilles.town/@neauoire)
 
-<img src='https://github.com/Merveilles/The-Town/blob/master/TOWN.jpg?raw=true' width='800'/>
+<img src='https://github.com/Merveilles/The-Town/blob/master/TOWN.jpg?raw=true' width='600'/>
 
 ## Rules
 
