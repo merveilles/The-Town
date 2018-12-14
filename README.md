@@ -14,4 +14,4 @@ We want to keep the instance small, the aim of the town is to facilitate a discu
 ## Rules
 
 - One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
-- One must wear a Black & White avatar.
+- One must wear a **Black & White avatar**.
