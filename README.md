@@ -21,4 +21,4 @@ We want to keep the instance small, the aim of the Town is to facilitate a discu
 
 ### On Cross-post
 
-You are allowed to crosspost from other social networks, but if it's found that you don't respond to interactions on the instance. You will be considered as lurking and will be removed.
+For the time being, you are not allowed to automatically crosspost from other social networks, if it's found that you don't respond to cross-posted interactions, on the instance. You will be considered as lurking and will be removed. 
