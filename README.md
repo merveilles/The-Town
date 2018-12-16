@@ -18,3 +18,7 @@ We want to keep the instance small, the aim of the Town is to facilitate a discu
 - One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
 - One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
 - One must wear a **Black & White avatar**.
+
+### On Cross-post
+
+You are allowed to crosspost from other social networks, but if it's found that you don't respond to interactions on the instance. You will be considered as lurking and will be removed.
