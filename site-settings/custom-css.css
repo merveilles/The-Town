@@ -1,0 +1,417 @@
+body {
+  background: #222 !important
+}
+
+.ui {
+  background: #111 !important
+}
+
+.app-holder>div {
+  background: #222 !important
+}
+
+.column-header>button {
+  background: #333 !important
+}
+
+.column-header__button {
+  background: #333 !important;
+  margin: 0px !important;
+  color: #111 !important
+}
+
+.column-header__button:hover {
+  color: #fff !important;
+  cursor: pointer
+}
+
+.notification {
+  background: #232323 !important
+}
+
+.notification__favourite-icon-wrapper .star-icon {
+  color: #72dec2 !important
+}
+
+.star-icon .icon-button:hover {
+  color: #fff !important;
+  cursor: pointer
+}
+
+.notification__message {
+  color: #555 !important
+}
+
+.notification__message .fa {
+  color: #72dec2 !important
+}
+
+.status {
+  border-bottom: 1px solid #333 !important
+}
+
+.status__wrapper {
+  background: #222 !important
+}
+
+.display-name__account {
+  color: #555 !important
+}
+
+.icon-button {
+  color: #555 !important
+}
+
+.icon-button.active {
+  color: #72dec2 !important
+}
+
+.icon-button:hover {
+  color: #fff !important;
+  cursor: pointer
+}
+
+.status__relative-time {
+  color: #555 !important
+}
+
+.status__content p {
+  color: #fff !important
+}
+
+.muted .status__content p {
+  color: #777 !important
+}
+
+.muted .status__content a {
+  color: #999 !important
+}
+
+.muted .status__display-name strong {
+  color: #999 !important
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px !important
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333 !important
+}
+
+.detailed-status {
+  background: #292929
+}
+
+.status__content__read-more-button {
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 3px;
+  line-height: 30px;
+  padding: 0px 10px;
+  margin-top: 15px;
+}
+
+.status__content__read-more-button:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #000
+}
+
+.column>.scrollable {
+  background: #222
+}
+
+.column-header__back-button {
+  background: #333;
+  margin: 0px;
+  color: #fff
+}
+
+.attachment-list__list a {
+  color: #999
+}
+
+.attachment-list.compact .fa {
+  color: #999
+}
+
+.status__action-bar__counter {
+  margin-right: 5px
+}
+
+.status__action-bar__counter .status__action-bar-button {
+  margin-right: 0px;
+  width: 18px !important;
+}
+
+.status__action-bar__counter__label {
+  color: #666;
+  line-height: 20px;
+}
+
+.detailed-status__meta {
+  color: #666
+}
+
+.column {
+  padding: 5px 2.5px 5px 2.5px
+}
+
+.column-header>.column-header__back-button {
+  color: #fff
+}
+
+.status__content a {
+  color: #ccc
+}
+
+.detailed-status__action-bar {
+  background: none;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444
+}
+
+.status__content .status__content__spoiler-link {
+  background: #000;
+  color: #555;
+  font-weight: normal;
+  text-transform: capitalize
+}
+
+.drawer {
+  padding: 5px 2.5px 5px 5px !important
+}
+
+.drawer__header {
+  margin-bottom: 0px;
+  background: #333
+}
+
+.drawer__header a {
+  color: #fff
+}
+
+.drawer__header a:hover {
+  background: #444
+}
+
+.drawer__inner {
+  background: #333
+}
+
+.search {
+  margin-bottom: 0px
+}
+
+.search__input {
+  padding: 15px 10px;
+  background: #222
+}
+
+.search__icon .fa-search {
+  position: absolute;
+  top: 15px
+}
+
+.compose-form .compose-form__buttons-wrapper {
+  background: #222
+}
+
+.compose-form__publish .button {
+  background: #fff;
+  color: #000
+}
+
+.compose-form__publish .button:hover {
+  background: #72dec2;
+  cursor: pointer
+}
+
+.drawer__inner__mastodon {
+  display: none
+}
+
+.status-card.compact {
+  border-color: #444
+}
+
+.status-card__image {
+  background: #444
+}
+
+.navigation-bar__profile-edit span {
+  color: #666
+}
+
+.text-icon-button {
+  color: #666
+}
+
+.character-counter {
+  color: #555 !important
+}
+
+.column-back-button {
+  background: #333;
+  color: #fff
+}
+
+.account__header {
+  background: #222
+}
+
+.account__header>div {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.account__header .account__header__username {
+  background: #000;
+  display: inline-block;
+  color: #fff;
+  padding: 0px 10px;
+  line-height: 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px
+}
+
+.account__header .account__header__content {
+  color: #fff
+}
+
+.account__disclaimer {
+  border-top: 0px;
+  color: #666
+}
+
+.account__action-bar__tab {
+  border-right-color: #333
+}
+
+.account__action-bar__tab>span {
+  color: #666
+}
+
+.account__action-bar__tab.active {
+  border-bottom-color: #72dec2
+}
+
+.account__section-headline {
+  background: #111;
+  border-bottom: 1px solid #333
+}
+
+.account__action-bar {
+  border-top-color: #333;
+  border-bottom-color: #333
+}
+
+.account {
+  border-bottom-color: #333
+}
+
+.account__section-headline a {
+  color: #ccc
+}
+
+.account__header .account__header__fields dt {
+  color: #fff;
+  background: #222;
+}
+
+.account__header .account__header__fields dd {
+  color: #fff;
+  background: #222
+}
+
+.account__header__fields a {
+  color: #72dec2
+}
+
+.reply-indicator {
+  background: #222;
+}
+
+.reply-indicator__content {
+  color: #ccc
+}
+
+.reply-indicator__content a {
+  color: #fff
+}
+
+.reply-indicator .display-name__html {
+  color: #fff
+}
+
+.status__action-bar-button {
+  margin-right: 5px
+}
+
+.status__action-bar-button.icon-button:hover {
+  cursor: pointer
+}
+
+.status__action-bar-button.icon-button i.fa-reply {
+  opacity: 0.7;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M3,4.5 L10,10 L3,15.5' stroke='white' fill='none' stroke-width='2' stroke-linecap='round'/></svg>");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-position: center;
+  margin-top: 2px
+}
+
+.status__action-bar-button.icon-button i.fa-reply:hover {
+  opacity: 1
+}
+
+.status__action-bar-button.icon-button i.fa-reply:before {
+  display: none !important
+}
+
+.status__action-bar-button.icon-button i.fa-star {}
+
+.status__action-bar-button.icon-button i.fa-star:before {
+  font-size: 16px
+}
+
+.status__action-bar-button.icon-button i.fa-star:hover {
+  color: white;
+  cursor: pointer
+}
+
+.getting-started {
+  background: #222;
+  color: #666
+}
+
+.column-subheading {
+  background: #222;
+  color: #666;
+}
+
+.column-link {
+  background: #333;
+}
+
+.column-link:hover {
+  background: #444
+}
+
+.getting-started__footer a {
+  color: #666
+}
+
+.getting-started__footer p {
+  color: #444
+}
+
+.getting-started__footer p a {
+  color: #666
+}
