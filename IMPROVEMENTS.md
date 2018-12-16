@@ -40,4 +40,4 @@ Enable a Federation Relay server to help with discovery.
 ## Infrastructure Upgrades
 * **CDN**: Enable a Cloud Distribution Network with S3, so that users all over the world can load assets faster.
 * **Load Balancing**: Create multiple connected droplets on DigitalOcean and do load balancing between them, for better site reliability.
-* **Move to docker**: Moving to docker would be much easier to manage. Using docker, each part of Mastodon can be put inside its own container, which is easier to track for logging purposes, and would be way easier to spin up and take down as needed. It may be a bit too automagical, however.
+* **Move to docker**: Moving to [docker](https://www.docker.com/) would be much easier to manage. Using docker, each part of Mastodon can be put inside its own container, which is easier to track for logging purposes, and would be way easier to spin up and take down as needed. It may be a bit too automagical, however.
