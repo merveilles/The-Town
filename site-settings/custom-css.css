@@ -23,8 +23,8 @@ body { background:#222 !important}
 ::-webkit-scrollbar { width:5px !important; height:5px !important}
 ::-webkit-scrollbar-thumb { background:#333 !important}
 .detailed-status { background:#292929}
-.status__content__read-more-button { background:#000;color:#fff;font-size:12px;display: inline-block;border-radius: 3px;line-height: 30px;padding:0px 10px;margin-top:15px;}
-.status__content__read-more-button:hover { text-decoration:none; background:#fff; color:#000}
+.status__content__read-more-button, .status__content .status__content__spoiler-link { background: #000;color: #fff;font-size: 12px;display: block;border-radius: 3px;line-height: 30px;padding: 0px 10px;margin-top: 15px;text-transform: capitalize;font-weight: normal;vertical-align: bottom;margin-left:0px }
+.status__content__read-more-button:hover, .status__content .status__content__spoiler-link:hover { text-decoration:none; background:#fff; color:#000}
 .column > .scrollable { background:#222}
 .column-header__back-button { background:#333; margin:0px; color:#fff}
 .attachment-list__list a { color:#999}
@@ -37,7 +37,6 @@ body { background:#222 !important}
 .column-header > .column-header__back-button { color:#fff}
 .status__content a { color:#ccc}
 .detailed-status__action-bar { background:none; border-top:1px solid #444; border-bottom:1px solid #444}
-.status__content .status__content__spoiler-link { background: #000;color: #555;font-weight: normal;text-transform: capitalize}
 .drawer { padding:5px 2.5px 5px 5px !important}
 .drawer__header { margin-bottom:0px; background:#333}
 .drawer__header a { color:#fff}
@@ -50,8 +49,11 @@ body { background:#222 !important}
 .compose-form__publish .button { background:#fff; color:#000}
 .compose-form__publish .button:hover { background:#72dec2; cursor:pointer}
 .drawer__inner__mastodon { display:none}
-.status-card.compact { border-color:#444}
-.status-card__image { background:#444}
+.status-card.compact { border:0px; background:white; color:black;}
+.status-card.compact:hover { background:#ccc; }
+.status-card__content { color:black; background:white; }
+.status-card__title { color:#000; }
+.status-card__image { background-color:#ccc }
 .navigation-bar__profile-edit span { color:#666}
 .text-icon-button { color:#666}
 .character-counter { color:#555 !important}
