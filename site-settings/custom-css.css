@@ -100,9 +100,20 @@ body { background:#222 !important}
 .loading-bar { background-color:#72dec2}
 
 .landing-page__short-description h1 small { color:#999}
+.landing-page h2 { color:#fff; }
 .landing-page h3 { color:#ccc}
+.landing-page h4 { color:#ccc; }
+.landing-page h6 { color:#ccc; }
 .landing-page p { color:#fff}
-.landing-page__call-to-action { background:#222 }
-.landing-page__mascot { height: 100px;position: relative;left: -40px;bottom: 120px;}
+.landing-page p a { color:#aaa !important; }
+.landing-page__call-to-action { background:#222; margin-bottom:-10px; }
+.landing-page__mascot { height: 100px;position: relative;left: -40px;bottom: 150px;}
 .landing-page__mascot img { height: 320px}
 .landing-page__information { background:#333}
+.landing-page__forms { background:transparent; }
+.landing-page__forms .button { background-color:#fff; color:#000; }
+.landing-page__forms .button.button-alternative-2 { background:#999; color:#000; }
+.landing-page .closed-registrations-message p { color:#666; }
+.landing-page .features-list .features-list__row .text { color:#999; }
+.landing-page .separator-or::before { border-bottom-color:#333; }
+.landing-page .separator-or span { color:#ccc; background:#333; }
