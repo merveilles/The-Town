@@ -21,6 +21,7 @@ body { background:#222 !important}
 .muted .status__content p { color:#777 !important}
 .muted .status__content a { color:#999 !important}
 .muted .status__display-name strong { color:#999 !important}
+a.floating-action-button { background:white; color:black; }
 ::-webkit-scrollbar { width:5px !important; height:5px !important}
 ::-webkit-scrollbar-thumb { background:#333 !important}
 .detailed-status { background:#292929}
