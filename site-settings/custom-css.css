@@ -4,8 +4,6 @@ body { background:#222 !important}
 .column-header > button { background:#333 !important}
 .column-header__button { background:#333 !important; margin:0px !important; color:#111 !important}
 .column-header__button:hover { color:#fff !important; cursor:pointer}
-.column-header__wrapper.active::before { background: radial-gradient(ellipse, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0) 60%); }
-.column-header.active { -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.31;box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1); }
 .notification { background:#232323 !important }
 .notification__favourite-icon-wrapper .star-icon { color:#72dec2 !important }
 .star-icon .icon-button:hover { color:#fff !important; cursor:pointer}
@@ -46,12 +44,14 @@ body { background:#222 !important}
 .drawer__header a:hover { background:#444}
 .drawer__inner { background:#333}
 .drawer__inner.darker { background:#222; }
-.drawer__inner__mastodon { display:none}
+.drawer__inner__mastodon { background: none;position: absolute;bottom: 0px;z-index: 0;}
+.drawer__inner__mastodon > img { width:400px }
 .search { margin-bottom:0px}
 .search__input { padding: 15px 10px;background: #222;color:#72dec2}
 .search__input:active { background:#000; }
 .search__input:focus { background:#111; }
 .search__icon .fa-search { position:absolute; top:15px}
+.compose-form { position: relative; z-index: 9000 }
 .compose-form .compose-form__buttons-wrapper { background:#222}
 .compose-form__publish .button { background:#fff; color:transparent}
 .compose-form__publish .button:hover { background:#72dec2; cursor:pointer}
