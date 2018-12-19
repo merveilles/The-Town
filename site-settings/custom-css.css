@@ -4,6 +4,8 @@ body { background:#222 !important}
 .column-header > button { background:#333 !important}
 .column-header__button { background:#333 !important; margin:0px !important; color:#111 !important}
 .column-header__button:hover { color:#fff !important; cursor:pointer}
+.column-header__wrapper.active::before { background: radial-gradient(ellipse, rgba(255, 255, 255, 0.23) 0%, rgba(255, 255, 255, 0) 60%); }
+.column-header.active { -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.31;box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1); }
 .notification { background:#232323 !important }
 .notification__favourite-icon-wrapper .star-icon { color:#72dec2 !important }
 .star-icon .icon-button:hover { color:#fff !important; cursor:pointer}
