@@ -43,13 +43,23 @@ body { background:#222 !important}
 .drawer__header a { color:#fff}
 .drawer__header a:hover { background:#444}
 .drawer__inner { background:#333}
+.drawer__inner.darker { background:#222; }
+.drawer__inner__mastodon { display:none}
 .search { margin-bottom:0px}
-.search__input { padding:15px 10px; background:#222}
+.search__input { padding: 15px 10px;background: #222;color:#72dec2}
+.search__input:active { background:#000; }
+.search__input:focus { background:#111; }
 .search__icon .fa-search { position:absolute; top:15px}
 .compose-form .compose-form__buttons-wrapper { background:#222}
-.compose-form__publish .button { background:#fff; color:#000}
+.compose-form__publish .button { background:#fff; color:transparent}
 .compose-form__publish .button:hover { background:#72dec2; cursor:pointer}
-.drawer__inner__mastodon { display:none}
+.compose-form__publish .button:after { content: "Post";color: black;left: 18px;display: inline-block;position: absolute; }
+.trends__item__name { color:#666; }
+.trends__item__name a { color:#ccc; }
+.trends__item__sparkline path { stroke: #72dec2 !important; }
+.trends__item { border-bottom: 1px solid #333; }
+.search-results__header { color: #555;background: #000;border-bottom:1px dotted #333; }
+.search-results__section h5 { display:none; }
 .status-card.compact { border:0px; background:white; color:black;}
 .status-card.compact:hover { background:#ccc; }
 .status-card__content { color:black; background:white; }
@@ -59,7 +69,7 @@ body { background:#222 !important}
 .text-icon-button { color:#666}
 .character-counter { color:#555 !important}
 .column-back-button { background: #333; color:#fff}
-.account__header { background:#222}
+.account__header { background-color:#000 }
 .account__header > div { background: rgba(0, 0, 0, 0.3); }
 .account__header .account__header__username { background:#000;display: inline-block;color:#fff;padding:0px 10px;line-height: 30px;border-radius: 5px;margin-top:15px;margin-bottom:15px}
 .account__header .account__header__content { color:#fff}
