@@ -40,7 +40,7 @@ a.floating-action-button { background:white; color:black; }
 .status__action-bar { margin-bottom: 5px }
 .status__action-bar__counter { margin-right:0px; }
 .status__action-bar__counter .status__action-bar-button { margin-right: 0px;width:22px !important;}
-.status__action-bar__counter__label { display:none;}
+.status__action-bar__counter__label { position: absolute;left: 140px;bottom: 11px;line-height: 22px;color: #444;font-size: 14px;font-weight: normal; }
 .status__action-bar-dropdown { margin-left: auto }
 .detailed-status__meta { color:#666}
 .column { padding:5px 2.5px 5px 2.5px}
