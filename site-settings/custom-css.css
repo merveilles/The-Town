@@ -54,7 +54,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .drawer__header { margin-bottom:0px; background:#333}
 .drawer__header a { color:#fff}
 .drawer__header a:hover { background:#444}
-.drawer__inner { background-color: #333;background-image:url(https://s3-eu-central-1.amazonaws.com/merveilles/site_uploads/files/000/000/002/original/hero.png);background-size: 400px;background-repeat: no-repeat;background-position: left bottom;}
+.drawer__inner { background-color: #333;background-image:url(https://s3-eu-central-1.amazonaws.com/merveilles/site_uploads/files/000/000/002/original/hero.png);background-size: 440px;background-repeat: no-repeat;background-position: left bottom;}
 .drawer__inner.darker { background:#222; }
 .drawer__inner__mastodon { display: none}
 .search { margin-bottom:0px}
