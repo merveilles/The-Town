@@ -30,7 +30,7 @@ a.floating-action-button { background:white; color:black; }
 .detailed-status { background:#292929}
 .status__content__read-more-button, .status__content .status__content__spoiler-link { background: #000;color: #fff;font-size: 12px;display: block;border-radius: 3px;line-height: 30px;padding: 0px 10px;margin-top: 15px;text-transform: capitalize;font-weight: normal;vertical-align: bottom;margin-left:0px }
 .status__content__read-more-button:hover, .status__content .status__content__spoiler-link:hover { text-decoration:none; background:#fff; color:#000}
-.column > .scrollable { background:#222}
+.column > .scrollable { background:#222;  scrollbar-color: #333 #222; scrollbar-width: thin;}
 .column-header__back-button { background:#333; margin:0px; color:#fff}
 .attachment-list__list a { color:#999}
 .attachment-list.compact .fa { color:#999}
