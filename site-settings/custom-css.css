@@ -147,6 +147,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .navigation-bar { background-color:#333; }
 .navigation-bar .navigation-bar__profile-account { color:#fff; }
 .trends__header { color:#fff; background-color:#111; }
+.media-spoiler { color:#555; }
 
 .admin-wrapper .quick-nav a { color:#fff }
 .admin-wrapper .quick-nav a:hover { color:#72dec2 }
