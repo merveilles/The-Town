@@ -4,6 +4,9 @@ body { background:#222 !important}
 .column-header > button { background:#333 !important}
 .column-header__button { background:#333 !important; margin:0px !important; color:#111 !important}
 .column-header__button:hover { color:#fff !important; cursor:pointer}
+.column-header__collapsible-inner { background:#111; }
+.column-header__collapsible-inner .column-settings__section { color:#fff; }
+.column-header__collapsible-inner .column-settings__section.setting-toggle__label { color:#fff; }
 .notification { background:#232323 !important }
 .notification__favourite-icon-wrapper .star-icon { color:#72dec2 !important }
 .star-icon .icon-button:hover { color:#fff !important; cursor:pointer}
@@ -115,13 +118,34 @@ a.floating-action-button { background:white; color:black; }
 .loading-bar { background-color:#72dec2}
 .status-card__image-image { height:60px; width:60px; }
 .column-header.active .column-header__icon { color:#72dec2; text-shadow: none }
-.empty-column-indicator .error-column { color:#fff; background:#222; }
+.empty-column-indicator, .error-column { color:#fff; background:#222; }
 .column-inline-form { color: #fff; background:#222; }
 .column-inline-form .setting-text { color:#fff; }
-.column-inline-form .setting-text:focus { color:#72dec2; }
-.navagation-bar { background-color:#333; }
-.navigation-bar__profile-account { color:#fff; }
+.column-inline-form .setting-text:focus { color:#72dec2; border-bottom:2px solid #72dec2; }
+.navigation-bar { background-color:#333; }
+.navigation-bar .navigation-bar__profile-account { color:#fff; }
 .trends__header { color:#fff; background-color:#111; }
+
+.admin-wrapper .quick-nav a { color:#fff }
+.admin-wrapper .quick-nav a:hover { color:#72dec2 }
+.admin-wrapper .sidebar-wrapper { height:100vh; background: #000; }
+.admin-wrapper .sidebar ul a { color:#fff; }
+.admin-wrapper .sidebar ul a:hover, a:focus { color:#72dec2; background:#222; }
+.admin-wrapper .sidebar ul a.selected { background:#222; }
+.admin-wrapper .sidebar ul li { background:#111; }
+.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a { color:#fff; background:#333; }
+.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a:hover, a:focus { color:#72dec2; background:#222; }
+.admin-wrapper .simple_form button, button:hover {  background:#555; }
+.admin-wrapper .simple_form button:hover { color:#72dec2; }
+.admin-wrapper .simple_form .block-button { color:#fff; background:#555; }
+.admin-wrapper .simple_form .block-button:hover { color:#72dec2; background:#555; }
+.admin-wrapper a.button { background: #555; }
+.admin-wrapper a.button:hover { color:#72dec2; background: #555; }
+.admin-wrapper .table > tbody > tr:nth-child(odd) > td, .admin-wrapper .table > tbody > tr:nth-child(odd) > th { background: #444; }
+.admin-wrapper .table th, .table td { border:none; background:#222; }
+.admin-wrapper .table a { text-decoration:none; color:#72dec2; }
+.admin-wrapper .card__bar { background: #333; }
+.admin-wrapper .card__bar .display-name span { color:#72dec2; }
 
 .landing-page__short-description h1 small { color:#999}
 .landing-page h2 { color:#fff; }
