@@ -8,7 +8,10 @@ body { background:#222 !important}
 .column-header__collapsible-inner .column-settings__section { color:#fff; }
 .column-header__collapsible-inner .column-settings__section.setting-toggle__label { color:#fff; }
 .notification { background:#232323 !important }
-.notification__favourite-icon-wrapper .star-icon { color:#72dec2 !important }
+.notification__favourite-icon-wrapper .star-icon:before { display:none !important }
+.notification__favourite-icon-wrapper .star-icon { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 15px;background-position: center;background-size: 15px}
+.notification__favourite-icon-wrapper .fa-retweet:before{ display:none !important }
+.notification__favourite-icon-wrapper .fa-retweet{ background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>");height: 17px;background-size:17px;background-position: center; }
 .star-icon .icon-button:hover { color:#fff !important; cursor:pointer}
 .notification__message { color:#555 !important}
 .notification__message .fa { color:#72dec2 !important}
