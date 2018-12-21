@@ -124,6 +124,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 button.icon-button i.fa-retweet { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23555555' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
 button.icon-button i.fa-retweet:hover  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23FFFFFF' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
 button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372DEC2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
+.regeneration-indicator, .regeneration-indicator__label strong { color: #666; background: #222}
 .status__prepend { color:#666}
 .status__display-name { color:#999}
 .status__prepend .status__display-name strong { color:#999}
