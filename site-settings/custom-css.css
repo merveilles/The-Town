@@ -1,3 +1,6 @@
+/*
+  general
+*/
 body { background:#222 !important}
 .ui { background:#111 !important}
 .app-holder > div { background:#222 !important}
@@ -19,9 +22,9 @@ body { background:#222 !important}
 .status__wrapper { background:#222 !important}
 .status.status-direct:not(.read) { background: #000;border-bottom-color: #333; }
 .display-name__account { color:#555 !important}
-.icon-button { color:#555 !important}
+.icon-button { color:#fff !important}
 .icon-button.active { color:#72dec2 !important}
-.icon-button:hover { color:#fff !important; cursor:pointer}
+.icon-button:hover { color:#72dec2 !important; cursor:pointer}
 .status__relative-time { color:#555 !important}
 .status__content p { color:#fff !important}
 .muted .status__content p { color:#777 !important}
@@ -95,9 +98,10 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .account__action-bar { border-top-color:#333; border-bottom-color:#333}
 .account { border-bottom-color:#333}
 .account__section-headline a { color:#ccc}
-.account__header .account__header__fields dt { color: #fff;background: #222;}
-.account__header .account__header__fields dd { color:#fff; background:#222}
-.account__header__fields a { color:#72dec2}
+.public-account-bio .account__header__fields dl, .public-account-bio .account__header__fields, .account__header .account__header__fields dl { border-color: #333; }
+.public-account-bio .account__header__fields dt, .account__header .account__header__fields dt { color: #fff; background: #222;}
+.public-account-bio .account__header__fields dd, .account__header .account__header__fields dd { color:#fff; background:#222;}
+.public-layout .public-account-bio .account__header__fields a, .account__header__fields a { color:#72dec2;}
 .reply-indicator { background:#222; }
 .reply-indicator__content { color:#ccc }
 .reply-indicator__content a { color:#fff}
@@ -150,7 +154,44 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .navigation-bar .navigation-bar__profile-account { color:#fff; }
 .trends__header { color:#fff; background-color:#111; }
 .media-spoiler { color:#555; }
+.load-more { color:#fff; }
+.load-more:hover { color:#72dec2; background:#333; }
 
+/*
+  public facing pages
+*/
+.public-layout { background:#111; }
+.public-layout .header { background:#111; }
+.public-layout .header .nav-button { background:#222; }
+.public-layout .header .nav-button:hover { color:#72dec2; background:#333; }
+.public-layout .public-account-header { background:#222; }
+.public-layout .public-account-header__bar::before { background:#222; }
+.public-layout .public-account-header__bar a.avatar { border: none; }
+.public-layout .public-account-header__tabs__tabs .counter { border-right-color:#333;  }
+.public-layout .public-account-header__tabs__tabs .counter.active::after { border-bottom:4px solid #72dec2; }
+.public-layout .public-account-header__tabs__tabs .counter::after { border-bottom:4px solid #fff; }
+.public-layout .public-account-header__bar a.avatar img { border: 4px solid #222 ; }
+.activity-stream .entry:first-child .detailed-status, .activity-stream .entry:first-child .status, .activity-stream .entry:first-child .load-more { border-radius: none; }
+.activity-stream .entry { background:#222; }
+.account__section-headline a.active::after { border-color: transparent transparent #222; }
+.public-layout .public-account-header__tabs__name h1 { background:#222; padding-left:5px; margin-right:29vw; margin-top:-15px; text-align:center; border-radius:5px; }
+.public-layout .public-account-header__tabs__name h1 small { color:#72dec2; }
+.button.logo-button { background:#333; }
+.public-layout .hero-widget__text { color:#fff; background:#222; }
+.public-layout .public-account-bio .account__header__content, .public-layout .public-account-bio__extra, .public-layout .public-account-bio .roles { border-color:#333; background:#222; }
+.public-layout .public-account-header__extra .public-account-bio .account__header__fields { border-top: 1px solid #333; }
+.public-layout .public-account-header__extra__links { color:#666; }
+.public-layout .public-account-bio__extra, .public-layout .public-account-bio .roles { color:#72dec2; }
+.public-layout .status__action-bar__counter__label { left:148px; bottom: 18px; }
+.public-layout .footer *, .public-layout .footer .brand svg path { color:#666 !important; fill:#666; }
+@media only screen and (max-width:600px) { .public-account-bio .account__header__fields, .account__header .account__header__fields dt { color: #fff; background: #222;} .public-layout .public-account-header__tabs__name h1 { background:none; padding-left:0; margin-right:0; margin-top:0; text-align:left; border-radius:0; } .public-layout .public-account-header__bar { background:none; }  }
+
+
+
+
+/*
+  settings sidebar
+*/
 .admin-wrapper .quick-nav a { color:#fff }
 .admin-wrapper .quick-nav a:hover { color:#72dec2 }
 .admin-wrapper .sidebar-wrapper { height:100vh; background: #000; }
@@ -171,6 +212,10 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .admin-wrapper .table a { text-decoration:none; color:#72dec2; }
 .admin-wrapper .card__bar { background: #333; }
 .admin-wrapper .card__bar .display-name span { color:#72dec2; }
+
+/*
+  landing page
+*/
 
 .landing-page__short-description h1 small { color:#999}
 .landing-page h2 { color:#fff; }
