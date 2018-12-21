@@ -174,17 +174,17 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .activity-stream .entry:first-child .detailed-status, .activity-stream .entry:first-child .status, .activity-stream .entry:first-child .load-more { border-radius: none; }
 .activity-stream .entry { background:#222; }
 .account__section-headline a.active::after { border-color: transparent transparent #222; }
-.public-layout .public-account-header__tabs__name h1 { background:#222; padding-left:5px; margin-right:29vw; margin-top:-15px; text-align:center; border-radius:5px; }
+.public-layout .public-account-header__tabs__name h1 { background:#222; padding:8px; margin-right:29vw; margin-top:-15px; text-align:center; border-radius:5px; }
 .public-layout .public-account-header__tabs__name h1 small { color:#72dec2; }
 .button.logo-button { background:#333; }
 .public-layout .hero-widget__text { color:#fff; background:#222; }
 .public-layout .public-account-bio .account__header__content, .public-layout .public-account-bio__extra, .public-layout .public-account-bio .roles { border-color:#333; background:#222; }
 .public-layout .public-account-header__extra .public-account-bio .account__header__fields { border-top: 1px solid #333; }
-.public-layout .public-account-header__extra__links { color:#666; }
+.public-layout .public-account-header__extra__links a { color:#666; }
 .public-layout .public-account-bio__extra, .public-layout .public-account-bio .roles { color:#72dec2; }
 .public-layout .status__action-bar__counter__label { left:148px; bottom: 18px; }
 .public-layout .footer *, .public-layout .footer .brand svg path { color:#666 !important; fill:#666; }
-@media only screen and (max-width:600px) { .public-account-bio .account__header__fields, .account__header .account__header__fields dt { color: #fff; background: #222;} .public-layout .public-account-header__tabs__name h1 { background:none; padding-left:0; margin-right:0; margin-top:0; text-align:left; border-radius:0; } .public-layout .public-account-header__bar { background:none; }  }
+@media only screen and (max-width:600px) { .public-account-bio .account__header__fields, .account__header .account__header__fields dt { color: #fff; background: #222;} .public-layout .public-account-header__tabs__name h1 { background:none; padding-left:0; margin-right:0; margin-top:0; text-align:left; border-radius:0; } .public-layout .public-account-header__bar { background:none; } .public-layout .public-account-header__extra__links a { color:#666; }  }
 
 
 
