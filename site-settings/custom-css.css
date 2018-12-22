@@ -156,6 +156,12 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .media-spoiler { color:#555; }
 .load-more { color:#fff; }
 .load-more:hover { color:#72dec2; background:#333; }
+.privacy-dropdown__option { color:#333; background:#fff; }
+.privacy-dropdown__option:hover .privacy-dropdown__option__content, .privacy-dropdown__option.active .privacy-dropdown__option__content { color: #333; }
+.privacy-dropdown__option.active, .privacy-dropdown__option:hover { background:#72dec2; }
+.privacy-dropdown.active .privacy-dropdown__value.active { color:#333; background:#72dec2; }
+.privacy-dropdown.active .privacy-dropdown__value.active i {color:#333;}
+.text-icon-button.active { color:#72dec2; }
 
 /*
   public facing pages
