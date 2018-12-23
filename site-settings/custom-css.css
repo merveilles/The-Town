@@ -34,8 +34,11 @@ a.floating-action-button { background:white; color:black; }
 a.floating-action-button:hover, .floating-action-button:focus, .floating-action-button:active { background:#EEE; color:black; }
 ::-webkit-scrollbar { width:5px !important; height:5px !important}
 ::-webkit-scrollbar-thumb { background:#333 !important}
-::-webkit-scrollbar-thumb:hover { background: #444 !important; }
-::-webkit-scrollbar-thumb:active { background: #444 !important; }
+::-webkit-scrollbar-thumb:hover { background:#555 !important; cursor: pointer;}
+::-webkit-scrollbar-thumb:active { background:#fff !important; cursor: pointer;}
+::-webkit-scrollbar-track { background:#222 !important}
+::-webkit-scrollbar-track:hover { background: #222 !important; }
+::-webkit-scrollbar-track:active { background: #333 !important; }
 .detailed-status { background:#292929}
 .status__content__read-more-button, .status__content .status__content__spoiler-link { background: #000;color: #fff;font-size: 12px;display: block;border-radius: 3px;line-height: 30px;padding: 0px 10px;margin-top: 15px;text-transform: capitalize;font-weight: normal;vertical-align: bottom;margin-left:0px }
 .status__content__read-more-button:hover, .status__content .status__content__spoiler-link:hover { text-decoration:none; background:#fff; color:#000}
