@@ -209,11 +209,12 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .admin-wrapper .quick-nav a:hover { color:#72dec2 }
 .admin-wrapper .sidebar-wrapper { height:100vh; background: #000; }
 .admin-wrapper .sidebar ul a { color:#fff; }
-.admin-wrapper .sidebar ul a:hover, a:focus { color:#72dec2; background:#222; }
+.admin-wrapper .sidebar ul a:hover, .admin-wrapper .sidebar ul a:focus { color:#72dec2; background:#222; }
 .admin-wrapper .sidebar ul a.selected { background:#222; }
 .admin-wrapper .sidebar ul li { background:#111; }
 .admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a { color:#fff; background:#333; }
-.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a:hover, a:focus { color:#72dec2; background:#222; }
+.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a:hover, 
+.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a:focus { color:#72dec2; background:#222; }
 .admin-wrapper .simple_form button, .admin-wrapper .simple_form button:hover { background:#555; }
 .admin-wrapper .simple_form button:hover { color:#72dec2; }
 .admin-wrapper .simple_form .block-button { color:#fff; background:#555; }
