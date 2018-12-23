@@ -40,7 +40,6 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .status__content__read-more-button, .status__content .status__content__spoiler-link { background: #000;color: #fff;font-size: 12px;display: block;border-radius: 3px;line-height: 30px;padding: 0px 10px;margin-top: 15px;text-transform: capitalize;font-weight: normal;vertical-align: bottom;margin-left:0px }
 .status__content__read-more-button:hover, .status__content .status__content__spoiler-link:hover { text-decoration:none; background:#fff; color:#000}
 .column > .scrollable { background:#222;  scrollbar-color: #333 #222; scrollbar-width: thin;}
-.column:first-child, .drawer:first-child { width:300px; }
 .column-header__back-button { background:#333; margin:0px; color:#fff}
 .attachment-list__list a { color:#999}
 .attachment-list.compact .fa { color:#999}
@@ -52,7 +51,6 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .status__action-bar-dropdown { margin-left: auto }
 .detailed-status__meta { color:#666}
 .column { padding:5px 2.5px 5px 2.5px; }
-.column,.drawer { width: calc(100vw - 335px - 40%);min-width: 300px;max-width: 400px }
 .column-header > .column-header__back-button { color:#fff}
 .column-header.active { box-shadow: 0 1px 0 rgba(114, 222, 194, 0.6); }
 .column-header__wrapper.active:before { background: radial-gradient(ellipse, rgba(114, 222, 194, 0.6) 0%, rgba(43, 144, 217, 0) 60%); }
