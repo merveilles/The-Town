@@ -171,6 +171,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .privacy-dropdown .icon-button.active { color:#333!important; background:#72dec2; border-radius: 4px 4px 0 0; }
 .focusable:focus .detailed-status { background:#111; }
 .focusable:focus .detailed-status__action-bar { background:#111; }
+.focusable:focus .status.status-direct { background:#111;}
 
 /*
   public facing pages
