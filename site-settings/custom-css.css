@@ -102,11 +102,6 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .account__section-headline { background: #111;border-bottom: 1px solid #333}
 .account__action-bar { border-top-color:#333; border-bottom-color:#333}
 .account { border-bottom-color:#333}
-.account__section-headline a { color:#ccc}
-.public-account-bio .account__header__fields dl, .public-account-bio .account__header__fields, .account__header .account__header__fields dl { border-color: #333; }
-.public-account-bio .account__header__fields dt, .account__header .account__header__fields dt { color: #fff; background: #222;}
-.public-account-bio .account__header__fields dd, .account__header .account__header__fields dd { color:#fff; background:#222;}
-.public-layout .public-account-bio .account__header__fields a, .account__header__fields a { color:#72dec2;}
 .reply-indicator { background:#222; }
 .reply-indicator__content { color:#ccc }
 .reply-indicator__content a { color:#fff}
@@ -130,9 +125,10 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .icon-button i.fa-ellipsis-h { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L11,18 M4,4 L 4,18 M18,4 L18,18' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round'/></svg>");display: inline-block;width: 22px;height: 20px;background-size: contain;background-position: 0px center;margin-top: 4px;background-repeat: no-repeat }
 .icon-button i.fa-ellipsis-h:before { display: none}
 .icon-button i.fa-ellipsis-h:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L11,18 M4,4 L 4,18 M18,4 L18,18' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round'/></svg>");}
-button.icon-button i.fa-retweet { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23555555' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
-button.icon-button i.fa-retweet:hover  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23FFFFFF' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
-button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372DEC2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
+.icon-button i.fa-retweet { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23555555' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important; width: 22px;height: 22px; margin-top:2px;}
+.icon-button i.fa-retweet:before { display:none;}
+.icon-button i.fa-retweet:hover  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23FFFFFF' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
+.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372DEC2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
 .detailed-status__link i.fa-retweet { width: 14px; height: 14px; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='6' stroke='%23666' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>")}
 .detailed-status__link i.fa-retweet:before { display: none !important}
 .detailed-status__link i.fa-star { width: 14px; height: 14px; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><path d='M7,2 L13,13 L1,13 Z' stroke='%23666' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
@@ -186,13 +182,19 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .public-layout .public-account-header__bar::before { background:#222; }
 .public-layout .public-account-header__bar a.avatar { border: none; }
 .public-layout .public-account-header__tabs__tabs .counter { border-right-color:#333;  }
-.public-layout .public-account-header__tabs__tabs .counter.active::after { border-bottom:4px solid #72dec2; }
-.public-layout .public-account-header__tabs__tabs .counter::after { border-bottom:4px solid #fff; }
+.public-layout .public-account-header__tabs__tabs .counter.active::after { border-bottom:2px solid #72dec2; }
+.public-layout .public-account-header__tabs__tabs .counter::after { border-bottom:2px solid #999; }
+.public-layout .public-account-header__tabs__tabs .counter .counter-label { color:#999; }
 .public-layout .public-account-header__bar a.avatar img { border: 4px solid #222 ; }
+.public-layout .public-account-bio .account__header__fields dl, .public-account-bio .account__header__fields, .account__header .account__header__fields dl { border-color: #333; }
+.public-layout .public-account-bio .account__header__fields dt, .account__header .account__header__fields dt { color: #fff; background: #222;}
+.public-layout .public-account-bio .account__header__fields dd, .account__header .account__header__fields dd { color:#fff; background:#222;}
+.public-layout .public-account-bio .account__header__fields a, .account__header__fields a { color:#72dec2;}
 .activity-stream .entry:first-child .detailed-status, .activity-stream .entry:first-child .status, .activity-stream .entry:first-child .load-more { border-radius: none; }
 .activity-stream .entry { background:#222; }
+.account__section-headline a { color:#666}
 .account__section-headline a.active::after { border-color: transparent transparent #222; }
-.public-layout .public-account-header__tabs__name h1 { background:#222; padding:8px; margin-right:29vw; margin-top:-15px; text-align:center; border-radius:5px; }
+.account__section-headline a:hover { color:white; }
 .public-layout .public-account-header__tabs__name h1 small { color:#72dec2; }
 .button.logo-button { background:#333; }
 .public-layout .hero-widget__text { color:#fff; background:#222; }
@@ -202,6 +204,9 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .public-layout .public-account-bio__extra, .public-layout .public-account-bio .roles { color:#72dec2; }
 .public-layout .status__action-bar__counter__label { left:148px; bottom: 18px; }
 .public-layout .footer *, .public-layout .footer .brand svg path { color:#666 !important; fill:#666; }
+
+.account-role.admin { border:2px solid white;background:transparent;line-height: 15px;border-radius: 14px;padding:5px 10px;display: inline-block;color:#fff }
+
 @media only screen and (max-width:600px) { .public-account-bio .account__header__fields, .account__header .account__header__fields dt { color: #fff; background: #222;} .public-layout .public-account-header__tabs__name h1 { background:none; padding-left:0; margin-right:0; margin-top:0; text-align:left; border-radius:0; } .public-layout .public-account-header__bar { background:none; } .public-layout .public-account-header__extra__links a { color:#666; }  }
 
 
