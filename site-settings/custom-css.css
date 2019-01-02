@@ -83,11 +83,11 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .trends__item { border-bottom: 1px solid #333; }
 .search-results__header { color: #555;background: #000;border-bottom:1px dotted #333; }
 .search-results__section h5 { display:none; }
-.status-card.compact { border:0px; background:white; color:black;}
+.status-card.compact { border:0px; background:transparent; color:black;}
 .status-card.compact:hover { background:#ccc; }
 .status-card__content { color:black; background:white; }
 .status-card__title { color:#000; }
-.status-card__image { background-color:#ccc }
+.status-card__image { background-color:transparent; }
 .navigation-bar__profile-edit span { color:#666}
 .text-icon-button { color:#666}
 .character-counter { color:#555 !important}
@@ -150,7 +150,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .tabs-bar__link { border-bottom:0px}
 .tabs-bar__link.active { border-bottom:0px; color:#72dec2}
 .loading-bar { background-color:#72dec2}
-.status-card__image-image { height:60px; width:60px; }
+.status-card__image-image { height:60px; width:60px; border-radius: 0px 0px 0px 0px !important }
 .column-header.active .column-header__icon { color:#72dec2; text-shadow: none }
 .empty-column-indicator, .error-column { color:#fff; background:#222; }
 .column-inline-form { color: #fff; background:#222; }
