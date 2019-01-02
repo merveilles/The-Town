@@ -207,7 +207,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .public-layout .status__action-bar__counter__label { left:148px; bottom: 18px; }
 .public-layout .footer *, .public-layout .footer .brand svg path { color:#666 !important; fill:#666; }
 .public-layout .box-widget { background:#222; }
-.public-layout .box-widget a, a:visited { color:#72dec2; }
+.public-layout .box-widget a, .public-layout .box-widget a:visited { color:#72dec2; }
 .public-layout .box-widget ul { list-style:none; margin-left:0; }
 .public-layout .box-widget ul li { margin: 0; margin-bottom: 1em; padding-left: 1em; position: relative; }
 .public-layout .box-widget ul li:after { content: ''; height: .35em; width: .35em; background: #EEE; display: block; position: absolute; transform: rotate(45deg); top: .66em; left: 0; }
