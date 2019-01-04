@@ -50,15 +50,15 @@ Posts promoting certain types of problematic content are explicitly not allowed,
 ### Common Hashtags
 
 This is a list of common hashtags and their meanings in the town:
-- #theWorkshop - sharing projects and WIP
-- #theStudio - music
-- #theObservatory - visual inspiration
-- #theLudarium - games and interactive art
-- #theLibrary - literature
-- #theCinema - movies
-- #theFurnace - programming, closer to the metal
-- #theFoundry - hw, Raspberry Pi, & Adruino
-- #theCartographer - travel
-- #theGalley - cuisine
-- #theCouture - fashion
-- #theVent - to express your own frustrations
+- `#theWorkshop` - Personal Projects
+- `#theStudio` - Currently Listening..
+- `#theObservatory` - Visual Inspiration
+- `#theLudarium` - Games and Interactive art
+- `#theLibrary` - Literature
+- `#theCinema` - Movies
+- `#theFurnace` - Programming, closer to the metal
+- `#theFoundry` - Raspberry Pi, Adruino, IoT
+- `#theCartographer` - Travel
+- `#theGalley` - Cuisine
+- `#theCouture` - Fashion
+- `#theVent` - To express own frustrations
