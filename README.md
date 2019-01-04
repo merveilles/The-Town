@@ -46,3 +46,19 @@ Posts promoting certain types of problematic content are explicitly not allowed,
   - _Clarification_: Explicit furry art, or depictions of anthropomorphized animals who have the mental capacity to consent, is allowed. However, depictions (and especially photography) of animals who cannot consent is not allowed at all. If capacity to consent is unclear, removal of a piece of content will be left to the administrators.
 
 - Pedophilia (or any sexualized depiction of children or young animals)
+
+### Common Hashtags
+
+This is a list of common hashtags and their meanings in the town:
+- #theWorkshop - sharing projects and WIP
+- #theStudio - music
+- #theObservatory - visual inspiration
+- #theLudarium - games and interactive art
+- #theLibrary - literature
+- #theCinema - movies
+- #theFurnace - programming, closer to the metal
+- #theFoundry - hw, Raspberry Pi, & Adruino
+- #theCartographer - travel
+- #theGalley - cuisine
+- #theCouture - fashion
+- #theVent - to express your own frustrations
