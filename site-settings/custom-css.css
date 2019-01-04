@@ -194,6 +194,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .public-layout .public-account-bio .account__header__fields a, .account__header__fields a { color:#72dec2;}
 .activity-stream .entry:first-child .detailed-status, .activity-stream .entry:first-child .status, .activity-stream .entry:first-child .load-more { border-radius: none; }
 .activity-stream .entry { background:#222; }
+.activity-stream div[data-component] { max-width: 540px !important }
 .account__section-headline a { color:#666}
 .account__section-headline a.active::after { border-color: transparent transparent #222; }
 .account__section-headline a:hover { color:white; }
