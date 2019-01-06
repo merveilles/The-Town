@@ -51,7 +51,7 @@ Posts promoting certain types of problematic content are explicitly not allowed,
 
 This is a list of common hashtags and their meanings in the town:
 - `#theWorkshop` - Personal Projects
-- `#theStudio` - Currently Listening..
+- `#theStudio` - Currently Listening…
 - `#theObservatory` - Visual Inspiration
 - `#theLudarium` - Games and Interactive art
 - `#theLibrary` - Literature
