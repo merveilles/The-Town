@@ -57,7 +57,7 @@ This is a list of common hashtags and their meanings in the town:
 - `#theLibrary` - Literature
 - `#theCinema` - Movies
 - `#theFurnace` - Programming, closer to the metal
-- `#theFoundry` - Raspberry Pi, Adruino, IoT
+- `#theFoundry` - Raspberry Pi, Arduino, IoT
 - `#theCartographer` - Travel
 - `#theGalley` - Cuisine
 - `#theCouture` - Fashion
