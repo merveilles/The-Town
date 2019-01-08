@@ -1,3 +1,6 @@
+/*
+  general
+*/
 body { background:#222 !important}
 .ui { background:#111 !important}
 .app-holder > div { background:#222 !important}
@@ -7,21 +10,26 @@ body { background:#222 !important}
 .column-header__collapsible-inner { background:#111; }
 .column-header__collapsible-inner .column-settings__section { color:#fff; }
 .column-header__collapsible-inner .column-settings__section.setting-toggle__label { color:#fff; }
+.column-header__collapsible-inner .text-btn { display: inline-block;font-family: inherit;font-size: inherit;cursor: pointer;border: 2px solid white;background: #fff;padding: 5px 10px !important;border-radius: 30px;color: black; }
+.column-header__collapsible-inner .text-btn:hover { background: #111; color:white; text-decoration: none }
+.column-header__collapsible-inner .react-toggle--checked .react-toggle-track { background:#222; border-color:#111; }
+.column-header__collapsible-inner .setting-toggle__label { color:#999; }
 .notification { background:#232323 !important }
+.notification__favourite-icon-wrapper { left: 10px;top:2px;position: absolute; }
 .notification__favourite-icon-wrapper .star-icon:before { display:none !important }
 .notification__favourite-icon-wrapper .star-icon { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 15px;background-position: center;background-size: 15px}
 .notification__favourite-icon-wrapper .fa-retweet:before{ display:none !important }
 .notification__favourite-icon-wrapper .fa-retweet{ background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>");height: 17px;background-size:17px;background-position: center; }
 .star-icon .icon-button:hover { color:#fff !important; cursor:pointer}
-.notification__message { color:#555 !important}
+.notification__message { color: #555 !important;margin:0px;line-height: 30px;padding:0px;padding-left:67px;border-bottom:1px solid #333;background:#000;font-size:12px}
 .notification__message .fa { color:#72dec2 !important}
 .status { border-bottom:1px solid #333 !important}
 .status__wrapper { background:#222 !important}
-.status.status-direct:not(.read) { background: #000;border-bottom-color: #333; }
+.status.status-direct:not(.read) { border-bottom-color: #333; background:#000; }
 .display-name__account { color:#555 !important}
-.icon-button { color:#555 !important}
+.icon-button { color:#fff !important}
 .icon-button.active { color:#72dec2 !important}
-.icon-button:hover { color:#fff !important; cursor:pointer}
+.icon-button:hover { color:#72dec2 !important; cursor:pointer}
 .status__relative-time { color:#555 !important}
 .status__content p { color:#fff !important}
 .muted .status__content p { color:#777 !important}
@@ -31,6 +39,11 @@ a.floating-action-button { background:white; color:black; }
 a.floating-action-button:hover, .floating-action-button:focus, .floating-action-button:active { background:#EEE; color:black; }
 ::-webkit-scrollbar { width:5px !important; height:5px !important}
 ::-webkit-scrollbar-thumb { background:#333 !important}
+::-webkit-scrollbar-thumb:hover { background:#555 !important; cursor: pointer;}
+::-webkit-scrollbar-thumb:active { background:#fff !important; cursor: pointer;}
+::-webkit-scrollbar-track { background:#222 !important}
+::-webkit-scrollbar-track:hover { background: #222 !important; }
+::-webkit-scrollbar-track:active { background: #333 !important; }
 .detailed-status { background:#292929}
 .status__content__read-more-button, .status__content .status__content__spoiler-link { background: #000;color: #fff;font-size: 12px;display: block;border-radius: 3px;line-height: 30px;padding: 0px 10px;margin-top: 15px;text-transform: capitalize;font-weight: normal;vertical-align: bottom;margin-left:0px }
 .status__content__read-more-button:hover, .status__content .status__content__spoiler-link:hover { text-decoration:none; background:#fff; color:#000}
@@ -41,10 +54,11 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .status__action-bar { margin-bottom: 5px }
 .status__action-bar__counter { margin-right:0px; }
 .status__action-bar__counter .status__action-bar-button { margin-right: 0px;width:22px !important;}
-.status__action-bar__counter__label { position: absolute;left: 140px;bottom: 11px;line-height: 22px;color: #444;font-size: 14px;font-weight: normal; }
+.status__action-bar__counter__label { position: absolute;left: 140px;bottom: 11px;line-height: 22px;color: #444;font-size: 14px;font-weight: normal; display: none}
+.status__action-bar-button[aria-label="Share"] { display: none; }
 .status__action-bar-dropdown { margin-left: auto }
 .detailed-status__meta { color:#666}
-.column { padding:5px 2.5px 5px 2.5px}
+.column { padding:5px 2.5px 5px 2.5px; }
 .column-header > .column-header__back-button { color:#fff}
 .column-header.active { box-shadow: 0 1px 0 rgba(114, 222, 194, 0.6); }
 .column-header__wrapper.active:before { background: radial-gradient(ellipse, rgba(114, 222, 194, 0.6) 0%, rgba(43, 144, 217, 0) 60%); }
@@ -54,7 +68,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .drawer__header { margin-bottom:0px; background:#333}
 .drawer__header a { color:#fff}
 .drawer__header a:hover { background:#444}
-.drawer__inner { background-color: #333;background-image:url(https://s3-eu-central-1.amazonaws.com/merveilles/site_uploads/files/000/000/002/original/hero.png);background-size: 400px;background-repeat: no-repeat;background-position: left bottom;}
+.drawer__inner { background-color: #333;background-image:url(https://s3-eu-central-1.amazonaws.com/merveilles/site_uploads/files/000/000/002/original/hero.png);background-size: 440px;background-repeat: no-repeat;background-position: left bottom;}
 .drawer__inner.darker { background:#222; }
 .drawer__inner__mastodon { display: none}
 .search { margin-bottom:0px}
@@ -73,11 +87,11 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .trends__item { border-bottom: 1px solid #333; }
 .search-results__header { color: #555;background: #000;border-bottom:1px dotted #333; }
 .search-results__section h5 { display:none; }
-.status-card.compact { border:0px; background:white; color:black;}
+.status-card.compact { border:0px; background:transparent; color:black;}
 .status-card.compact:hover { background:#ccc; }
 .status-card__content { color:black; background:white; }
 .status-card__title { color:#000; }
-.status-card__image { background-color:#ccc }
+.status-card__image { background-color:transparent; }
 .navigation-bar__profile-edit span { color:#666}
 .text-icon-button { color:#666}
 .character-counter { color:#555 !important}
@@ -93,10 +107,6 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .account__section-headline { background: #111;border-bottom: 1px solid #333}
 .account__action-bar { border-top-color:#333; border-bottom-color:#333}
 .account { border-bottom-color:#333}
-.account__section-headline a { color:#ccc}
-.account__header .account__header__fields dt { color: #fff;background: #222;}
-.account__header .account__header__fields dd { color:#fff; background:#222}
-.account__header__fields a { color:#72dec2}
 .reply-indicator { background:#222; }
 .reply-indicator__content { color:#ccc }
 .reply-indicator__content a { color:#fff}
@@ -104,25 +114,31 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .status__action-bar-button { margin-right:1px; border-radius: 3px}
 .status__action-bar-button:hover {}
 .status__action-bar-button.icon-button:hover { cursor:pointer}
-.status__action-bar-button.icon-button i.fa-reply { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");display: inline-block;width: 22px;height: 20px;background-size: 22px;background-position: 0px 0px;margin-top: 2px}
-.status__action-bar-button.icon-button i.fa-reply:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
-.status__action-bar-button.icon-button i.fa-reply:before { display: none !important}
-.status__action-bar-button.icon-button i.fa-star { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 0px;background-size: 22px}
-.status__action-bar-button.icon-button i.fa-star:before { display:none;}
-.status__action-bar-button.icon-button i.fa-star:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 0px;background-size: 22px}
-.status__action-bar-button.icon-button i.fa-lock { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 3px;background-size: 22px}
-.status__action-bar-button.icon-button i.fa-lock:before { display:none;}
-.status__action-bar-button.icon-button i.fa-lock:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23f00' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
-.status__action-bar-button.icon-button i.fa-envelope { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 3px;background-size: 22px}
-.status__action-bar-button.icon-button i.fa-envelope:before { display:none;}
-.status__action-bar-button.icon-button i.fa-envelope:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23f00' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
-.status__action-bar-button.icon-button.active i.fa-star { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 0px;background-size: 22px}
+.icon-button i.fa-reply { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");display: inline-block;width: 22px;height: 20px;background-size: 22px;background-position: 0px 0px;margin-top: 2px}
+.icon-button i.fa-reply:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
+.icon-button i.fa-reply:before { display: none !important}
+.icon-button i.fa-star { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 0px;background-size: 22px}
+.icon-button i.fa-star:before { display:none;}
+.icon-button i.fa-star:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 0px;background-size: 22px}
+.icon-button i.fa-lock { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 3px;background-size: 22px}
+.icon-button i.fa-lock:before { display:none;}
+.icon-button i.fa-lock:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23f00' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
+.icon-button i.fa-envelope { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 3px;background-size: 22px}
+.icon-button i.fa-envelope:before { display:none;}
+.icon-button i.fa-envelope:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M5,5 L17,17 M17,5 L5,17' stroke='%23f00' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
+.icon-button.active i.fa-star { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 22px;background-position: 0px 0px;background-size: 22px}
 .icon-button i.fa-ellipsis-h { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L11,18 M4,4 L 4,18 M18,4 L18,18' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round'/></svg>");display: inline-block;width: 22px;height: 20px;background-size: contain;background-position: 0px center;margin-top: 4px;background-repeat: no-repeat }
 .icon-button i.fa-ellipsis-h:before { display: none}
 .icon-button i.fa-ellipsis-h:hover { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L11,18 M4,4 L 4,18 M18,4 L18,18' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round'/></svg>");}
-button.icon-button i.fa-retweet { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23555555' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
-button.icon-button i.fa-retweet:hover  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23FFFFFF' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
-button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372DEC2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
+.icon-button i.fa-retweet { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23555555' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important; width: 22px;height: 22px; margin-top:2px;}
+.icon-button i.fa-retweet:before { display:none;}
+.icon-button i.fa-retweet:hover  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23FFFFFF' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
+.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet  { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372DEC2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;background-size:22px;background-position: 0.5px 0px !important}
+.detailed-status__link i.fa-retweet { width: 14px; height: 14px; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='6' stroke='%23666' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>")}
+.detailed-status__link i.fa-retweet:before { display: none !important}
+.detailed-status__link i.fa-star { width: 14px; height: 14px; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><path d='M7,2 L13,13 L1,13 Z' stroke='%23666' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");}
+.detailed-status__link i.fa-star:before { display: none !important}
+.regeneration-indicator, .regeneration-indicator__label strong { color: #666; background: #222}
 .status__prepend { color:#666}
 .status__display-name { color:#999}
 .status__prepend .status__display-name strong { color:#999}
@@ -138,7 +154,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .tabs-bar__link { border-bottom:0px}
 .tabs-bar__link.active { border-bottom:0px; color:#72dec2}
 .loading-bar { background-color:#72dec2}
-.status-card__image-image { height:60px; width:60px; }
+.status-card__image-image { height:60px; width:60px; border-radius: 0px 0px 0px 0px !important }
 .column-header.active .column-header__icon { color:#72dec2; text-shadow: none }
 .empty-column-indicator, .error-column { color:#fff; background:#222; }
 .column-inline-form { color: #fff; background:#222; }
@@ -147,16 +163,85 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .navigation-bar { background-color:#333; }
 .navigation-bar .navigation-bar__profile-account { color:#fff; }
 .trends__header { color:#fff; background-color:#111; }
+.media-spoiler { color:#555; }
+.load-more { color:#fff; }
+.load-more:hover { color:#72dec2; background:#333; }
+.privacy-dropdown__option { color:#333; background:#fff; }
+.privacy-dropdown__option:hover .privacy-dropdown__option__content, .privacy-dropdown__option:hover .privacy-dropdown__option__content strong, .privacy-dropdown__option.active .privacy-dropdown__option__content, .privacy-dropdown__option.active .privacy-dropdown__option__content strong, .privacy-dropdown__option.active .privacy-dropdown__option__content strong:hover {color: #333!important;}
+.privacy-dropdown__option.active, .privacy-dropdown__option:hover { background:#72dec2; }
+.privacy-dropdown.active .privacy-dropdown__value.active { color:#333; background:#72dec2; }
+.privacy-dropdown.active .privacy-dropdown__value.active i {color:#333;}
+.text-icon-button.active { color:#72dec2; }
+.privacy-dropdown .icon-button.active { color:#333!important; background:#72dec2; border-radius: 4px 4px 0 0; }
+.focusable:focus .detailed-status { background:#111; }
+.focusable:focus .detailed-status__action-bar { background:#111; }
+.focusable:focus .status.status-direct { background:#111;}
 
+/*
+  public facing pages
+*/
+.public-layout { background:#111; }
+.public-layout .header { background:#111; }
+.public-layout .header .nav-button { background:#222; }
+.public-layout .header .nav-button:hover { color:#72dec2; background:#333; }
+.public-layout .public-account-header { background:#222; }
+.public-layout .public-account-header__bar::before { background:#222; }
+.public-layout .public-account-header__bar a.avatar { border: none; }
+.public-layout .public-account-header__tabs__tabs .counter { border-right-color:#333;  }
+.public-layout .public-account-header__tabs__tabs .counter.active::after { border-bottom:2px solid #72dec2; }
+.public-layout .public-account-header__tabs__tabs .counter::after { border-bottom:2px solid #999; }
+.public-layout .public-account-header__tabs__tabs .counter .counter-label { color:#999; }
+.public-layout .public-account-header__bar a.avatar img { border: 4px solid #222 ; }
+.public-layout .public-account-bio .account__header__fields dl, .public-account-bio .account__header__fields, .account__header .account__header__fields dl { border-color: #333; }
+.public-layout .public-account-bio .account__header__fields dt, .account__header .account__header__fields dt { color: #fff; background: #222;}
+.public-layout .public-account-bio .account__header__fields dd, .account__header .account__header__fields dd { color:#fff; background:#222;}
+.public-layout .public-account-bio .account__header__fields a, .account__header__fields a { color:#72dec2;}
+.activity-stream .entry:first-child .detailed-status, .activity-stream .entry:first-child .status, .activity-stream .entry:first-child .load-more { border-radius: none; }
+.activity-stream .entry { background:#222; }
+.activity-stream div[data-component] { max-width: 540px !important }
+.account__section-headline a { color:#666}
+.account__section-headline a.active::after { border-color: transparent transparent #222; }
+.account__section-headline a:hover { color:white; }
+.public-layout .public-account-header__tabs__name h1 small { color:#72dec2; }
+.button.logo-button { background:#333; }
+.public-layout .hero-widget__text { color:#fff; background:#222; }
+.public-layout .public-account-bio .account__header__content, .public-layout .public-account-bio__extra, .public-layout .public-account-bio .roles { border-color:#333; background:#222; }
+.public-layout .public-account-header__extra .public-account-bio .account__header__fields { border-top: 1px solid #333; }
+.public-layout .public-account-header__extra__links a { color:#666; }
+.public-layout .public-account-bio__extra, .public-layout .public-account-bio .roles { color:#72dec2; }
+.public-layout .status__action-bar__counter__label { left:148px; bottom: 18px; }
+.public-layout .footer *, .public-layout .footer .brand svg path { color:#666 !important; fill:#666; }
+.public-layout .box-widget { background:#222; }
+.public-layout .box-widget a, .public-layout .box-widget a:visited { color:#72dec2; }
+.public-layout .box-widget ul { list-style:none; margin-left:0; }
+.public-layout .box-widget ul li { margin: 0; margin-bottom: 1em; padding-left: 1em; position: relative; }
+.public-layout .box-widget ul li:after { content: ''; height: .35em; width: .35em; background: #EEE; display: block; position: absolute; transform: rotate(45deg); top: .66em; left: 0; }
+.public-layout .box-widget .rich-formatting em { color:#EEE;}
+.public-layout .box-widget .rich-formatting li, .public-layout .box-widget .rich-formatting p { color:#CCC; }
+.public-layout .box-widget .rich-formatting h1, .public-layout .box-widget .rich-formatting h2, .public-layout .box-widget .rich-formatting h3 { color:#FFF; }
+.public-layout .contact-widget, .public-layout .landing-page__information.contact-widget { color:#FFF; background:#222; }
+.public-layout .contact-widget, .public-layout .landing-page__information.contact-widget a { color:#72dec2; }
+
+.account-role.admin { border:2px solid white;background:transparent;line-height: 15px;border-radius: 14px;padding:5px 10px;display: inline-block;color:#fff }
+
+@media only screen and (max-width:600px) { .public-account-bio .account__header__fields, .account__header .account__header__fields dt { color: #fff; background: #222;} .public-layout .public-account-header__tabs__name h1 { background:none; padding-left:0; margin-right:0; margin-top:0; text-align:left; border-radius:0; } .public-layout .public-account-header__bar { background:none; } .public-layout .public-account-header__extra__links a { color:#666; }  }
+
+
+
+
+/*
+  settings sidebar
+*/
 .admin-wrapper .quick-nav a { color:#fff }
 .admin-wrapper .quick-nav a:hover { color:#72dec2 }
 .admin-wrapper .sidebar-wrapper { height:100vh; background: #000; }
 .admin-wrapper .sidebar ul a { color:#fff; }
-.admin-wrapper .sidebar ul a:hover, a:focus { color:#72dec2; background:#222; }
+.admin-wrapper .sidebar ul a:hover, .admin-wrapper .sidebar ul a:focus { color:#72dec2; background:#222; }
 .admin-wrapper .sidebar ul a.selected { background:#222; }
 .admin-wrapper .sidebar ul li { background:#111; }
 .admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a { color:#fff; background:#333; }
-.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a:hover, a:focus { color:#72dec2; background:#222; }
+.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a:hover, 
+.admin-wrapper .sidebar-wrapper .sidebar ul .simple-navigation-active-leaf a:focus { color:#72dec2; background:#222; }
 .admin-wrapper .simple_form button, .admin-wrapper .simple_form button:hover { background:#555; }
 .admin-wrapper .simple_form button:hover { color:#72dec2; }
 .admin-wrapper .simple_form .block-button { color:#fff; background:#555; }
@@ -168,6 +253,10 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.active i.fa-retweet
 .admin-wrapper .table a { text-decoration:none; color:#72dec2; }
 .admin-wrapper .card__bar { background: #333; }
 .admin-wrapper .card__bar .display-name span { color:#72dec2; }
+
+/*
+  landing page
+*/
 
 .landing-page__short-description h1 small { color:#999}
 .landing-page h2 { color:#fff; }
