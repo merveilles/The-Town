@@ -75,7 +75,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .search__input { padding: 15px 10px;background: #222;color:#72dec2}
 .search__input:active { background:#000; }
 .search__input:focus { background:#111; }
-.search__icon .fa-search, .search__icon .fa-times-circle { position:absolute; top:15px}
+.search__icon .fa-search, .search__icon .fa-times-circle { position:absolute; top:15px; }
 .compose-form { position: relative; z-index: 0 }
 .compose-form .compose-form__buttons-wrapper { background:#222}
 .compose-form__publish .button { background:#fff; color:transparent}
