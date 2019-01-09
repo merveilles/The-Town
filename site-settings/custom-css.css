@@ -12,10 +12,12 @@ body { background:#222 !important}
 .column-header__collapsible-inner .column-settings__section.setting-toggle__label { color:#fff; }
 .column-header__collapsible-inner .text-btn { display: inline-block;font-family: inherit;font-size: inherit;cursor: pointer;border: 2px solid white;background: #fff;padding: 5px 10px !important;border-radius: 30px;color: black; }
 .column-header__collapsible-inner .text-btn:hover { background: #111; color:white; text-decoration: none }
-.column-header__collapsible-inner .react-toggle--checked .react-toggle-track { background:#222; border-color:#111; border-width: 2px }
 .column-header__collapsible-inner .react-toggle--checked .react-toggle-thumb { border-color:#000; border-width: 2px }
-.column-header__collapsible-inner .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track { background-color:#72dec2;}
+.column-header__collapsible-inner .react-toggle .react-toggle-track { background-color:#222 !important; border-color:#111; border-width: 2px }
+.column-header__collapsible-inner .react-toggle:hover .react-toggle-track { background-color:#72dec2 !important;}
 .column-header__collapsible-inner .setting-toggle__label { color:#999; }
+.column-header__collapsible-inner .react-toggle-track-x svg path { opacity:0.25; }
+.column-header__collapsible-inner .react-toggle-track-check svg path { fill:#72dec2 !important; }
 .notification { background:#232323 !important }
 .notification__favourite-icon-wrapper { left: 10px;top:2px;position: absolute; }
 .notification__favourite-icon-wrapper .star-icon:before { display:none !important }
