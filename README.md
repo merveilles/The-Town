@@ -29,6 +29,22 @@ We want to keep the instance small. The aim of the Town is to facilitate a discu
 - One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
 - One must wear a **Black & White avatar**.
 
+### Common Hashtags
+
+This is a list of common hashtags and their meanings in the town:
+- `#theWorkshop` - Personal Projects
+- `#theStudio` - Currently Listening…
+- `#theObservatory` - Visual Inspiration
+- `#theLudarium` - Games and Interactive art
+- `#theLibrary` - Literature
+- `#theCinema` - Movies
+- `#theFurnace` - Programming, closer to the metal
+- `#theFoundry` - Raspberry Pi, Arduino, IoT
+- `#theCartographer` - Travel
+- `#theGalley` - Cuisine
+- `#theCouture` - Fashion
+- `#theVent` - To express own frustrations
+
 ### On Cross-posting
 
 For the time being, you are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. 
@@ -47,18 +63,6 @@ Posts promoting certain types of problematic content are explicitly not allowed,
 
 - Pedophilia (or any sexualized depiction of children or young animals)
 
-### Common Hashtags
+### Blocked Domains
 
-This is a list of common hashtags and their meanings in the town:
-- `#theWorkshop` - Personal Projects
-- `#theStudio` - Currently Listening…
-- `#theObservatory` - Visual Inspiration
-- `#theLudarium` - Games and Interactive art
-- `#theLibrary` - Literature
-- `#theCinema` - Movies
-- `#theFurnace` - Programming, closer to the metal
-- `#theFoundry` - Raspberry Pi, Arduino, IoT
-- `#theCartographer` - Travel
-- `#theGalley` - Cuisine
-- `#theCouture` - Fashion
-- `#theVent` - To express own frustrations
+Merveilles.town restricts content from some domains. Please refer to the [blocklist](https://github.com/merveilles/The-Town/blob/master/docs/DOMAIN_BLOCKS.md) to see the full list.
