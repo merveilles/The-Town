@@ -225,6 +225,7 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .public-layout .box-widget .rich-formatting h1, .public-layout .box-widget .rich-formatting h2, .public-layout .box-widget .rich-formatting h3 { color:#FFF; }
 .public-layout .contact-widget, .public-layout .landing-page__information.contact-widget { color:#FFF; background:#222; }
 .public-layout .contact-widget, .public-layout .landing-page__information.contact-widget a { color:#72dec2; }
+.public-layout .hero-widget { position:sticky; top:0; }
 
 .account-role.admin { border:2px solid white;background:transparent;line-height: 15px;border-radius: 14px;padding:5px 10px;display: inline-block;color:#fff }
 
