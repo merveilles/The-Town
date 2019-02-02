@@ -7,34 +7,34 @@ Format and legend reused from mastodon.social, many thanks.
 |Domain|Severity|Rationale|Notes|
 |------|--------|---------|-----|
 |`pawoo.net`|Suspension|Allows illegal content|Allows for erotic loli/shota art, which is of underage children.|
-|`pl.smuglo.li`|Suspension|Harassment, alt-right/nazism|Slurs were not only hurled at an individual user, but they freely exist on the instance, unmoderated.|
-|`freespeechextremist.com`|Suspension|Alt-right/nazism|
-|`npf.mlpol.net`|Suspension|Alt-right/nazism|"Nazi Pony Fucker"|
+|`pl.smuglo.li`|Suspension|Harassment, alt-right / nazism|Slurs were not only hurled at an individual user, but they freely exist on the instance, unmoderated.|
+|`freespeechextremist.com`|Suspension|Alt-right / nazism|
+|`npf.mlpol.net`|Suspension|Alt-right / nazism|"Nazi Pony Fucker"|
 |`feminism.lgbt`|Suspension|Harassment|Name is extremely misleading. "All women have a right to be lewded," right in their instance description. Nope.|
 |`baraag.net`|Suspension|Allows illegal content|
-|`pleroma.rareome.ga`|Suspension|Alt-right/nazism|
-|`voluntaryism.club`|Suspension|Alt-right/nazism|
-|`thechad.zone`|Suspension|Alt-right/nazism|
-|`pleroma.yorha.club`|Suspension|Alt-right/nazism|
-|`freespeech.firedragonstudios.com`|Suspension|Alt-right/nazism|
-|`freezepeach.xyz`|Suspension|Alt-right/nazism|
-|`sealion.club`|Suspension|Alt-right/nazism|
-|`pleroma.cucked.me`|Suspension|Alt-right/nazism|
-|`unsafe.space`|Suspension|Alt-right/nazism|
-|`zerohack.xyz`|Suspension|Alt-right/nazism|
-|`shitposter.club`|Suspension|Alt-right/nazism|
-|`toot.love`|Suspension|Alt-right/nazism|
-|`freespeech.host`|Suspension|Alt-right/nazism|
-|`wrongthink.net`|Suspension|Alt-right/nazism|
-|`gs.smuglo.li`|Suspension|Alt-right/nazism|
-|`b.9chan.lol`|Suspension|Alt-right/nazism|
-|`melalandia.tk`|Suspension|Alt-right/nazism|
-|`socnet.supes.com`|Suspension|Alt-right/nazism|
-|`weeaboo.space`|Suspension|Alt-right/nazism|
-|`not.phrack.fyi`|Suspension|Alt-right/nazism|
-|`the.hedgehoghunter.club`|Suspension|Alt-right/nazism|
-|`soc.h4x.group`|Suspension|Alt-right/nazism|
-|`matrix.track44.moe`|Suspension|Alt-right/nazism|
+|`pleroma.rareome.ga`|Suspension|Alt-right / nazism|
+|`voluntaryism.club`|Suspension|Alt-right / nazism|
+|`thechad.zone`|Suspension|Alt-right / nazism|
+|`pleroma.yorha.club`|Suspension|Alt-right / nazism|
+|`freespeech.firedragonstudios.com`|Suspension|Alt-right / nazism|
+|`freezepeach.xyz`|Suspension|Alt-right / nazism|
+|`sealion.club`|Suspension|Alt-right / nazism|
+|`pleroma.cucked.me`|Suspension|Alt-right / nazism|
+|`unsafe.space`|Suspension|Alt-right / nazism|
+|`zerohack.xyz`|Suspension|Alt-right / nazism|
+|`shitposter.club`|Suspension|Alt-right / nazism|
+|`toot.love`|Suspension|Alt-right / nazism|
+|`freespeech.host`|Suspension|Alt-right / nazism|
+|`wrongthink.net`|Suspension|Alt-right / nazism|
+|`gs.smuglo.li`|Suspension|Alt-right / nazism|
+|`b.9chan.lol`|Suspension|Alt-right / nazism|
+|`melalandia.tk`|Suspension|Alt-right / nazism|
+|`socnet.supes.com`|Suspension|Alt-right / nazism|
+|`weeaboo.space`|Suspension|Alt-right / nazism|
+|`not.phrack.fyi`|Suspension|Alt-right / nazism|
+|`the.hedgehoghunter.club`|Suspension|Alt-right / nazism|
+|`soc.h4x.group`|Suspension|Alt-right / nazism|
+|`matrix.track44.moe`|Suspension|Alt-right / nazism|
 |`loli.estate`|Suspension|Allows illegal content|
 |`youkai.town`|Suspension|Allows illegal content|
 |`nfg.zone`|Suspension|Allows illegal content|
