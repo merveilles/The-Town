@@ -40,6 +40,8 @@ Format and legend reused from mastodon.social, many thanks.
 |`lolis.world`|Suspension|Allows illegal/analogous content|
 |`counter.social`|Suspension|Racist liberalism|Blocks IPs from seven countries, because "most bots come from there."|
 |`albin.social`|Suspension|Data scraper|Injects advertising into their own instance. Federating with them could allow their advertising to leak onto our instance.|
+|`anime.website`|Suspension|Allows for alt-right, nazism, or right-libertarianism|On investigation, saw many MAGA-related posts from multiple users.|
+|`honey.church`|Suspension|Anti-MOGAI|MOGAI stands for Marginalized Orientations, Gender identities, And Intersex. They are Pro-LGBTQ but against people who are asexual, which is still against our guidelines.|
 
 ### Severity legend
 
