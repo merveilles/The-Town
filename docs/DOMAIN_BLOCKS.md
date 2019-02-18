@@ -46,7 +46,7 @@ Format and legend reused from mastodon.social, many thanks.
 **Media block**  
 Media files from the server are not stored and therefore not displayed. Can be coupled with the sandbox severity.
 
-**Silence**
+**Silence**  
 Makes posts from accounts on the blocked domain invisible to anyone who isn't following them.
 
 **Sandbox**  
