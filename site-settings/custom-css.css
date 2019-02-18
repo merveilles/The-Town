@@ -180,8 +180,6 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .focusable:focus .detailed-status { background:#111; }
 .focusable:focus .detailed-status__action-bar { background:#111; }
 .focusable:focus .status.status-direct { background:#111;}
-img, .status__avatar, .media-gallery__item, .account__header, .status-card__image, .account__avatar { filter: saturate(0%); transition: 1s; }
-img:hover, .status__avatar:hover, .media-gallery__item:hover, .account__header:hover, .status-card__image:hover, .account__avatar:hover, .zoomable-image img, .landing-page__mascot img{ filter: saturate(100%); }
 
 /*
   public facing pages
