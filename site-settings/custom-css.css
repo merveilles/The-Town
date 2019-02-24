@@ -24,6 +24,11 @@ body { background:#222 !important}
 .notification__favourite-icon-wrapper .star-icon { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");height: 15px;background-position: center;background-size: 15px}
 .notification__favourite-icon-wrapper .fa-retweet:before{ display:none !important }
 .notification__favourite-icon-wrapper .fa-retweet{ background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%2372dec2' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>");height: 17px;background-size:17px;background-position: center; }
+.notification__filter-bar button { background: #000; color:#777}
+.notification__filter-bar { background: #000;border-bottom-color: #333}
+.notification__filter-bar button.active { color:#fff}
+.notification__filter-bar button.active:before { border-color: transparent transparent #333;}
+.notification__filter-bar button.active:after { border-color: transparent transparent #222;}
 .star-icon .icon-button:hover { color:#fff !important; cursor:pointer}
 .notification__message { color: #555 !important;margin:0px;line-height: 30px;padding:0px;padding-left:67px;border-bottom:1px solid #333;background:#000;font-size:12px}
 .notification__message .fa { color:#72dec2 !important}
