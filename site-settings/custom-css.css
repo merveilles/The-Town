@@ -128,9 +128,9 @@ a.floating-action-button:hover, .floating-action-button:focus, .floating-action-
 .reply-indicator .display-name__html { color:#fff; }
 .status__action-bar-button { margin-right:1px; border-radius:3px; }
 .status__action-bar-button.icon-button:hover { cursor:pointer; }
-.icon-button i.fa-reply { background-image:url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"); display:inline-block; width:22px; height:20px; background-size:22px; background-position:0px 0px; margin-top:2px; }
-.icon-button i.fa-reply:hover { background-image:url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"); }
-.icon-button i.fa-reply:before { display:none !important; }
+.icon-button i.fa-reply, .icon-button i.fa-reply-all { background-image:url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"); display:inline-block; width:22px; height:20px; background-size:22px; background-position:0px 0px; margin-top:2px; }
+.icon-button i.fa-reply:hover, .icon-button i.fa-reply-all:hover { background-image:url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"); }
+.icon-button i.fa-reply:before, .icon-button i.fa-reply-all:before { display:none !important; }
 .icon-button i.fa-star { background-image:url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"); height:22px; background-position:0px 0px; background-size:22px; }
 .icon-button i.fa-star:before { display:none; }
 .icon-button i.fa-star:hover { background-image:url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,7 L18,20 L4,20 Z' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"); height:22px; background-position:0px 0px; background-size:22px; }
