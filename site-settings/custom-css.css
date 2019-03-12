@@ -1303,6 +1303,22 @@ a.floating-action-button:hover,
 }
 
 /*
+  profile directory
+*/
+
+.public-layout .container .page-header { background: #000; }
+.public-layout .container .page-header p { color: #72dec2; }
+.public-layout .directory { background: #222; }
+.public-layout .directory .accounts-table tbody td { border-bottom-color: #333; }
+.public-layout .notice-widget p { color: #fff; }
+.public-layout .directory__tag a { background: #222; }
+.public-layout .directory__tag a:hover { background: #333; }
+.public-layout .directory__tag h4 .fa { color: #72dec2; }
+.public-layout .directory__tag h4 small { color: #aaa; }
+.public-layout .accounts-table__count small { color: #72dec2; }
+.public-layout .account .account__display-name { color: #555; }
+
+/*
   landing page
 */
 
