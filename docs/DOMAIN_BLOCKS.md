@@ -6,7 +6,7 @@ Format and legend reused from mastodon.social, many thanks.
 
 |Domain|Severity|Rationale|Notes|
 |------|--------|---------|-----|
-|`pawoo.net`|Silence + Media Block|Allows illegal/analogous content, untagged NSFW|Lots of untagged NSFW. Since it's hosted in Japan, underage content can exist on there, but it isn't made especially for underage art.|
+|`pawoo.net`|Suspension|Allows illegal/analogous content, untagged NSFW|Lots of untagged NSFW. Also allows for shota/loli art.|
 |`pl.smuglo.li`|Suspension|Harassment, alt-right / nazism|Slurs were not only hurled at an individual user, but they freely exist on the instance, unmoderated.|
 |`freespeechextremist.com`|Suspension|Alt-right / nazism|Many MAGA-related posts on there made by multiple users|
 |`npf.mlpol.net`|Suspension|Alt-right / nazism|"Nazi Pony Fucker"|
