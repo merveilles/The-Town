@@ -1555,3 +1555,27 @@ a.floating-action-button:hover,
 .poll__chart {
   background: #72dec2;
 }
+
+.actions-modal,
+.boost-modal,
+.confirmation-modal,
+.mute-modal,
+.report-modal {
+  background: #222;
+  color: #eee;
+}
+
+.boost-modal__action-bar,
+.confirmation-modal__action-bar,
+.mute-modal__action-bar {
+  background: #333;
+}
+
+.confirmation-modal__action-bar .confirmation-modal__cancel-button,
+.confirmation-modal__action-bar .confirmation-modal__secondary-button,
+.confirmation-modal__action-bar .mute-modal__cancel-button,
+.mute-modal__action-bar .confirmation-modal__cancel-button,
+.mute-modal__action-bar .confirmation-modal__secondary-button,
+.mute-modal__action-bar .mute-modal__cancel-button {
+  color: #72dec2;
+}
