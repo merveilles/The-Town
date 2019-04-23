@@ -1558,6 +1558,14 @@ a.floating-action-button:hover,
   background: #222;
 }
 
+.landing__brand {
+  display: none;
+}
+
+.landing__grid {
+  padding-top: 15px;
+}
+
 .button.button-primary {
   color: #222;
 }
