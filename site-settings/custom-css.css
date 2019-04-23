@@ -982,7 +982,8 @@ a.floating-action-button:hover,
 }
 
 .privacy-dropdown__option.active,
-.privacy-dropdown__option:hover {
+.privacy-dropdown__option:hover
+.privacy-dropdown__option.active:hover {
   background: #72dec2;
 }
 
