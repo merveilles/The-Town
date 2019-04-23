@@ -323,6 +323,25 @@ a.floating-action-button:hover,
   color: #000;
 }
 
+.dropdown-menu,
+.dropdown-menu__item a {
+  background: #444;
+  color: #eee;
+}
+
+.dropdown-menu__arrow.bottom {
+  border-bottom-color: #444;
+}
+
+.dropdown-menu__separator {
+  border-bottom: 1px solid  #aaa;
+}
+
+.dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover {
+  background: #72dec2;
+  color: #333;
+}
+
 .column>.scrollable {
   background: #222;
   scrollbar-color: #333 #222;
