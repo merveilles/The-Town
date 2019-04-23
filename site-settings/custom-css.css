@@ -354,6 +354,46 @@ a.floating-action-button:hover,
   color: #fff;
 }
 
+.column-settings__hashtags .column-select__control {
+  background: #333;
+  color: #fff;
+}
+
+.column-settings__hashtags .column-select__placeholder,
+.column-settings__hashtags .column-select__indicator-separator,
+.column-settings__hashtags .column-select__clear-indicator,
+.column-settings__hashtags .column-select__dropdown-indicator {
+  color: #aaa;
+}
+
+.column-settings__hashtags .column-select__clear-indicator:active,
+.column-settings__hashtags .column-select__clear-indicator:focus,
+.column-settings__hashtags .column-select__clear-indicator:hover,
+.column-settings__hashtags .column-select__dropdown-indicator:active,
+.column-settings__hashtags .column-select__dropdown-indicator:focus,
+.column-settings__hashtags .column-select__dropdown-indicator:hover {
+  color: #eee;
+}
+
+.column-select__menu {
+  background: #222!important;
+  color: #eee;
+}
+
+.column-settings__hashtags .column-select__input,
+.column-settings__hashtags .column-select__multi-value__label {
+  color: #fff;
+}
+
+.column-settings__hashtags .column-select__option {
+  color: #72dec2;
+}
+ 
+.column-settings__hashtags .column-select__option--is-focused,
+.column-settings__hashtags .column-select__option--is-selected {
+  background: #333;
+}
+
 .attachment-list__list a {
   color: #999;
 }
