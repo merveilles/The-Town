@@ -1492,3 +1492,50 @@ a.floating-action-button:hover,
   color: #ccc;
   background: #333;
 }
+
+.simple_form button {
+  background: #72dec2!important;
+  color: #222;
+}
+
+.simple_form .input.boolean label a {
+  color: #72dec2;
+}
+
+.landing .simple_form .user_agreement .label_input>label,
+.landing .simple_form p.lead,
+.simple_form .label_input__append,
+.landing .hero-widget h4,
+.landing .hero-widget__counter span,
+.simple_form .input.with_block_label .hint,
+.simple_form .hint
+{
+  color: #aaa;
+}
+
+.landing .hero-widget__footer {
+  background: #222;
+}
+
+.button.button-primary {
+  color: #222;
+}
+
+.simple_form input[type=text]:focus,
+.simple_form input[type=email]:active,
+.simple_form input[type=email]:focus,
+.simple_form input[type=number]:active,
+.simple_form input[type=number]:focus,
+.simple_form input[type=password]:active,
+.simple_form input[type=password]:focus,
+.simple_form input[type=text]:active,
+.simple_form input[type=text]:focus,
+.simple_form textarea:active,
+.simple_form textarea:focus,
+.simple_form input[type=email]:required:valid,
+.simple_form input[type=number]:required:valid,
+.simple_form input[type=password]:required:valid,
+.simple_form input[type=text]:required:valid,
+.simple_form textarea:required:valid {
+  border-color: #72dec2;
+}
