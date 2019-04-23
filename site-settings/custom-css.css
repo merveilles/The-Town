@@ -584,6 +584,21 @@ a.floating-action-button:hover,
   display: none;
 }
 
+.status-card,
+.attachment-list,
+.attachment-list__icon {
+  color: #aaa;
+  border-color: #444;
+}
+
+a.status-card:hover {
+  background: #333;
+}
+
+.status-card__description {
+  color: #888;
+}
+
 .status-card.compact {
   border: 0px;
   background: transparent;
