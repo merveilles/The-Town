@@ -14,6 +14,16 @@ body {
   background: #111 !important;
 }
 
+.button {
+  background: #72dec2;
+  color: #333;
+}
+
+.button:hover {
+  background: #72dec2;
+  color: #eee;
+}
+
 .app-holder>div {
   background: #222 !important;
 }
@@ -619,7 +629,7 @@ a.floating-action-button:hover,
 }
 
 .account__header>div {
-  background: rgba(0, 0, 0, 0.3);
+  background: #222;
 }
 
 .account__header .account__header__username {
@@ -633,8 +643,29 @@ a.floating-action-button:hover,
   margin-bottom: 15px;
 }
 
+.account__header__tabs__buttons .icon-button {
+  border: none
+}
+
 .account__header .account__header__content {
+  background: #222;
   color: #fff;
+}
+
+.account__header__content a {
+  color: #72dec2;
+}
+
+.account__header__bio .account__header__fields a {
+  color: #72dec2;
+}
+
+.account__header__fields {
+  border-color: #333;
+}
+
+.account__header__bar {
+  border-bottom-color: #333;
 }
 
 .account__disclaimer {
@@ -1063,7 +1094,8 @@ a.floating-action-button:hover,
   border-bottom: 2px solid #999;
 }
 
-.public-layout .public-account-header__tabs__tabs .counter .counter-label {
+.public-layout .public-account-header__tabs__tabs .counter .counter-label,
+.account__header__bio .counter .counter-label {
   color: #999;
 }
 
@@ -1073,7 +1105,8 @@ a.floating-action-button:hover,
 
 .public-layout .public-account-bio .account__header__fields dl,
 .public-account-bio .account__header__fields,
-.account__header .account__header__fields dl {
+.account__header .account__header__fields dl,
+.account__header__bio .account__header__fields dl {
   border-color: #333;
 }
 
@@ -1084,13 +1117,15 @@ a.floating-action-button:hover,
 }
 
 .public-layout .public-account-bio .account__header__fields dd,
-.account__header .account__header__fields dd {
+.account__header .account__header__fields dd,
+.account__header__bio .account__header__fields dd {
   color: #fff;
   background: #222;
 }
 
 .public-layout .public-account-bio .account__header__fields a,
-.account__header__fields a {
+.account__header__fields a,
+.account__header__bio .account__header__fields a {
   color: #72dec2;
 }
 
@@ -1120,7 +1155,8 @@ a.floating-action-button:hover,
   color: white;
 }
 
-.public-layout .public-account-header__tabs__name h1 small {
+.public-layout .public-account-header__tabs__name h1 small,
+.account__header__tabs__name h1 small {
   color: #72dec2;
 }
 
@@ -1144,7 +1180,8 @@ a.floating-action-button:hover,
   border-top: 1px solid #333;
 }
 
-.public-layout .public-account-header__extra__links a {
+.public-layout .public-account-header__extra__links a,
+.account__header__extra__links a {
   color: #666;
 }
 
