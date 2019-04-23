@@ -660,6 +660,10 @@ a.floating-action-button:hover,
   color: #72dec2;
 }
 
+.account__header__bar .avatar .account__avatar {
+  border: 2px solid #444;
+}
+
 .account__header__fields {
   border-color: #333;
 }
