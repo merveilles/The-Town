@@ -1462,6 +1462,10 @@ a.floating-action-button:hover,
   background: #333;
 }
 
+.landing-page__information strong {
+  color: #fff;
+}
+
 .landing-page__forms {
   background: transparent;
 }
@@ -1538,4 +1542,16 @@ a.floating-action-button:hover,
 .simple_form input[type=text]:required:valid,
 .simple_form textarea:required:valid {
   border-color: #72dec2;
+}
+
+.poll__text {
+  color: #aaa;
+}
+
+.poll__footer {
+  color: #666;
+}
+
+.poll__chart {
+  background: #72dec2;
 }
