@@ -14,6 +14,16 @@ body {
   background: #111 !important;
 }
 
+.button {
+  background: #72dec2;
+  color: #333;
+}
+
+.button:hover {
+  background: #72dec2;
+  color: #eee;
+}
+
 .app-holder>div {
   background: #222 !important;
 }
@@ -323,6 +333,25 @@ a.floating-action-button:hover,
   color: #000;
 }
 
+.dropdown-menu,
+.dropdown-menu__item a {
+  background: #444;
+  color: #eee;
+}
+
+.dropdown-menu__arrow.bottom {
+  border-bottom-color: #444;
+}
+
+.dropdown-menu__separator {
+  border-bottom: 1px solid  #aaa;
+}
+
+.dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover {
+  background: #72dec2;
+  color: #333;
+}
+
 .column>.scrollable {
   background: #222;
   scrollbar-color: #333 #222;
@@ -333,6 +362,46 @@ a.floating-action-button:hover,
   background: #333;
   margin: 0px;
   color: #fff;
+}
+
+.column-settings__hashtags .column-select__control {
+  background: #333;
+  color: #fff;
+}
+
+.column-settings__hashtags .column-select__placeholder,
+.column-settings__hashtags .column-select__indicator-separator,
+.column-settings__hashtags .column-select__clear-indicator,
+.column-settings__hashtags .column-select__dropdown-indicator {
+  color: #aaa;
+}
+
+.column-settings__hashtags .column-select__clear-indicator:active,
+.column-settings__hashtags .column-select__clear-indicator:focus,
+.column-settings__hashtags .column-select__clear-indicator:hover,
+.column-settings__hashtags .column-select__dropdown-indicator:active,
+.column-settings__hashtags .column-select__dropdown-indicator:focus,
+.column-settings__hashtags .column-select__dropdown-indicator:hover {
+  color: #eee;
+}
+
+.column-select__menu {
+  background: #222!important;
+  color: #eee;
+}
+
+.column-settings__hashtags .column-select__input,
+.column-settings__hashtags .column-select__multi-value__label {
+  color: #fff;
+}
+
+.column-settings__hashtags .column-select__option {
+  color: #72dec2;
+}
+ 
+.column-settings__hashtags .column-select__option--is-focused,
+.column-settings__hashtags .column-select__option--is-selected {
+  background: #333;
 }
 
 .attachment-list__list a {
@@ -515,6 +584,21 @@ a.floating-action-button:hover,
   display: none;
 }
 
+.status-card,
+.attachment-list,
+.attachment-list__icon {
+  color: #aaa;
+  border-color: #444;
+}
+
+a.status-card:hover {
+  background: #333;
+}
+
+.status-card__description {
+  color: #888;
+}
+
 .status-card.compact {
   border: 0px;
   background: transparent;
@@ -560,7 +644,7 @@ a.floating-action-button:hover,
 }
 
 .account__header>div {
-  background: rgba(0, 0, 0, 0.3);
+  background: #222;
 }
 
 .account__header .account__header__username {
@@ -574,8 +658,33 @@ a.floating-action-button:hover,
   margin-bottom: 15px;
 }
 
+.account__header__tabs__buttons .icon-button {
+  border: none
+}
+
 .account__header .account__header__content {
+  background: #222;
   color: #fff;
+}
+
+.account__header__content a {
+  color: #72dec2;
+}
+
+.account__header__bio .account__header__fields a {
+  color: #72dec2;
+}
+
+.account__header__bar .avatar .account__avatar {
+  border: 2px solid #444;
+}
+
+.account__header__fields {
+  border-color: #333;
+}
+
+.account__header__bar {
+  border-bottom-color: #333;
 }
 
 .account__disclaimer {
@@ -923,7 +1032,8 @@ a.floating-action-button:hover,
 }
 
 .privacy-dropdown__option.active,
-.privacy-dropdown__option:hover {
+.privacy-dropdown__option:hover
+.privacy-dropdown__option.active:hover {
   background: #72dec2;
 }
 
@@ -1003,7 +1113,8 @@ a.floating-action-button:hover,
   border-bottom: 2px solid #999;
 }
 
-.public-layout .public-account-header__tabs__tabs .counter .counter-label {
+.public-layout .public-account-header__tabs__tabs .counter .counter-label,
+.account__header__bio .counter .counter-label {
   color: #999;
 }
 
@@ -1013,7 +1124,8 @@ a.floating-action-button:hover,
 
 .public-layout .public-account-bio .account__header__fields dl,
 .public-account-bio .account__header__fields,
-.account__header .account__header__fields dl {
+.account__header .account__header__fields dl,
+.account__header__bio .account__header__fields dl {
   border-color: #333;
 }
 
@@ -1024,13 +1136,15 @@ a.floating-action-button:hover,
 }
 
 .public-layout .public-account-bio .account__header__fields dd,
-.account__header .account__header__fields dd {
+.account__header .account__header__fields dd,
+.account__header__bio .account__header__fields dd {
   color: #fff;
   background: #222;
 }
 
 .public-layout .public-account-bio .account__header__fields a,
-.account__header__fields a {
+.account__header__fields a,
+.account__header__bio .account__header__fields a {
   color: #72dec2;
 }
 
@@ -1060,7 +1174,8 @@ a.floating-action-button:hover,
   color: white;
 }
 
-.public-layout .public-account-header__tabs__name h1 small {
+.public-layout .public-account-header__tabs__name h1 small,
+.account__header__tabs__name h1 small {
   color: #72dec2;
 }
 
@@ -1084,7 +1199,8 @@ a.floating-action-button:hover,
   border-top: 1px solid #333;
 }
 
-.public-layout .public-account-header__extra__links a {
+.public-layout .public-account-header__extra__links a,
+.account__header__extra__links a {
   color: #666;
 }
 
@@ -1402,6 +1518,10 @@ a.floating-action-button:hover,
   background: #333;
 }
 
+.landing-page__information strong {
+  color: #fff;
+}
+
 .landing-page__forms {
   background: transparent;
 }
@@ -1431,4 +1551,95 @@ a.floating-action-button:hover,
 .landing-page .separator-or span {
   color: #ccc;
   background: #333;
+}
+
+.simple_form button {
+  background: #72dec2!important;
+  color: #222;
+}
+
+.simple_form .input.boolean label a {
+  color: #72dec2;
+}
+
+.landing .simple_form .user_agreement .label_input>label,
+.landing .simple_form p.lead,
+.simple_form .label_input__append,
+.landing .hero-widget h4,
+.landing .hero-widget__counter span,
+.simple_form .input.with_block_label .hint,
+.simple_form .hint
+{
+  color: #aaa;
+}
+
+.landing .hero-widget__footer {
+  background: #222;
+}
+
+.landing__brand {
+  display: none;
+}
+
+.landing__grid {
+  padding-top: 15px;
+}
+
+.button.button-primary {
+  color: #222;
+}
+
+.simple_form input[type=text]:focus,
+.simple_form input[type=email]:active,
+.simple_form input[type=email]:focus,
+.simple_form input[type=number]:active,
+.simple_form input[type=number]:focus,
+.simple_form input[type=password]:active,
+.simple_form input[type=password]:focus,
+.simple_form input[type=text]:active,
+.simple_form input[type=text]:focus,
+.simple_form textarea:active,
+.simple_form textarea:focus,
+.simple_form input[type=email]:required:valid,
+.simple_form input[type=number]:required:valid,
+.simple_form input[type=password]:required:valid,
+.simple_form input[type=text]:required:valid,
+.simple_form textarea:required:valid {
+  border-color: #72dec2;
+}
+
+.poll__text {
+  color: #aaa;
+}
+
+.poll__footer {
+  color: #666;
+}
+
+.poll__chart {
+  background: #72dec2;
+}
+
+.actions-modal,
+.boost-modal,
+.confirmation-modal,
+.mute-modal,
+.report-modal {
+  background: #222;
+  color: #eee;
+}
+
+.boost-modal__action-bar,
+.confirmation-modal__action-bar,
+.mute-modal__action-bar {
+  background: #333;
+}
+
+.confirmation-modal__action-bar .confirmation-modal__cancel-button,
+.confirmation-modal__action-bar .confirmation-modal__secondary-button,
+.confirmation-modal__action-bar .mute-modal__cancel-button,
+.mute-modal__action-bar .confirmation-modal__cancel-button,
+.mute-modal__action-bar .confirmation-modal__secondary-button,
+.mute-modal__action-bar .mute-modal__cancel-button {
+  color: #72dec2;
 }
