@@ -24,4 +24,4 @@ The [merveilles.town](https://merveilles.town) domain is registered through **[D
 | Sparkpost | **Varies** per month | [https://www.sparkpost.com/pricing/](https://www.sparkpost.com/pricing/) |  The free tier of SparkPost allows for 15000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
 
 ## Total Cost
-At least **USD$26.92 per month**. This cost can be higher based on how much resources the instance uses.
+At least **USD$31.92 per month**. This cost can be higher based on how much resources the instance uses.
