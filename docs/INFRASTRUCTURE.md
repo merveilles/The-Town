@@ -15,12 +15,13 @@ Email notifications sent from `notifications@email.merveilles.town`, used for pa
 The [merveilles.town](https://merveilles.town) domain is registered through **[Dreamhost](https://dreamhost.com/)** and is set to automatically renew before the registration expires.
 
 # Cost
-| Resource               | Cost               | Reference                                                                                                                | Notes                                                                                                                                                 |
-|------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DigitalOcean           | **USD$24** per month   | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/)                                           | Droplets can be cheap, but Mastodon specifically needs at least 4Gb of memory to compile assets. I also have weekly backups enabled, which costs an extra 20% of the droplet cost.                                                      |
-| Dreamhost Registration | **USD$34.99** per year | [https://www.dreamhost.com/legal/domain-registration-terms/](https://www.dreamhost.com/legal/domain-registration-terms/) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs.                                                                 |
-| Amazon S3              | **Varies** per month   | [https://aws.amazon.com/free/](https://aws.amazon.com/free/)                                                             | The instance is currently on the free tier of S3, but you only pay as much as you use, which is based on the number of variables.                     |
-| Sparkpost              | **Varies** per month   | [https://www.sparkpost.com/pricing/](https://www.sparkpost.com/pricing/)                                                 |  The free tier of SparkPost allows for 15000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
+| Resource | Cost | Reference | Notes |
+|----------|------|-----------|-------|
+| DigitalOcean | **USD$24** per month | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/) | Droplets can be cheap, but Mastodon specifically needs at least 4Gb of memory to compile assets. I also have weekly backups enabled, which costs an extra 20% of the droplet cost. |
+| Dreamhost Registration | **USD$34.99** per year | [https://www.dreamhost.com/legal/domain-registration-terms/](https://www.dreamhost.com/legal/domain-registration-terms/) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs. |
+| Amazon S3 | **Varies** per month | [https://aws.amazon.com/free/](https://aws.amazon.com/free/) | The instance is currently on the free tier of S3, but you only pay as much as you use, which is based on the number of variables. |
+| Fastmail | **USD$5** per month | [https://www.fastmail.com/pricing/](https://www.fastmail.com/pricing/) | We need to have the Standard tier so that we can use our own domain. |
+| Sparkpost | **Varies** per month | [https://www.sparkpost.com/pricing/](https://www.sparkpost.com/pricing/) |  The free tier of SparkPost allows for 15000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
 
 ## Total Cost
 At least **USD$26.92 per month**. This cost can be higher based on how much resources the instance uses.
