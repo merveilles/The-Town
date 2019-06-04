@@ -15,8 +15,8 @@ Format and legend reused from mastodon.social, many thanks.
 |`freespeech.firedragonstudios.com`|Suspension|Allows for alt-right / nazism|The idea of a free speech instance is noble, but gives a space for alt-right leaning types to thrive.|
 |`freezepeach.xyz`|Suspension|Allows for alt-right, nazism, or right-libertarianism|The idea of a free speech instance is noble, but gives a space for alt-right leaning types to thrive.|
 |`sealion.club`|Suspension|Alt-right, nazism, or right-libertarian|
-|`pleroma.cucked.me`|Suspension|Alt-right, nazism, or right-libertarian|
-|`unsafe.space`|Suspension|Alt-right, nazism, or right-libertarian|
+|`pleroma.cucked.me`|Suspension|Alt-right, nazism, or right-libertarian|See name of instance.|
+|`unsafe.space`|Suspension|Alt-right, nazism, or right-libertarian|See name of instance.|
 |`zerohack.xyz`|Suspension|Alt-right, nazism, or right-libertarian|
 |`shitposter.club`|Suspension|Alt-right, nazism, or right-libertarian|
 |`toot.love`|Suspension|Alt-right, nazism, or right-libertarian|
@@ -31,17 +31,18 @@ Format and legend reused from mastodon.social, many thanks.
 |`the.hedgehoghunter.club`|Suspension|Alt-right, nazism, or right-libertarian|
 |`soc.h4x.group`|Suspension|Alt-right, nazism, or right-libertarian|
 |`matrix.track44.moe`|Suspension|Alt-right, nazism, or right-libertarian|
-|`loli.estate`|Suspension|Allows illegal/analogous content|
+|`loli.estate`|Suspension|Allows illegal/analogous content|See name of instance.|
 |`youkai.town`|Suspension|Allows illegal/analogous content|
 |`nfg.zone`|Suspension|Allows illegal/analogous content|
 |`social.homunyan.com`|Suspension|Allows illegal/analogous content|
-|`mastodon.loliandstuff.moe`|Suspension|Allows illegal/analogous content|
-|`preteengirls.biz`|Suspension|Allows illegal/analogous content|
-|`lolis.world`|Suspension|Allows illegal/analogous content|
+|`mastodon.loliandstuff.moe`|Suspension|Allows illegal/analogous content|See name of instance.|
+|`preteengirls.biz`|Suspension|Allows illegal/analogous content|See name of instance.|
+|`lolis.world`|Suspension|Allows illegal/analogous content|See name of instance.|
 |`counter.social`|Suspension|Racist liberalism|Blocks IPs from seven countries, because "most bots come from there."|
 |`albin.social`|Suspension|Data scraper|Injects advertising into their own instance. Federating with them could allow their advertising to leak onto our instance.|
 |`anime.website`|Suspension|Allows for alt-right, nazism, or right-libertarianism|On investigation, saw many MAGA-related posts from multiple users.|
 |`honey.church`|Suspension|Anti-MOGAI|MOGAI stands for Marginalized Orientations, Gender identities, And Intersex. They are Pro-LGBTQ but against people who are asexual, which is still against our guidelines.|
+|`gab.com` & `gab.ai`|Suspension|Alt-right, nazism, or right-libertarian|After hearing Gab was moving to Mastodon, this was included as a pre-emptive block. Many people have accounts on Gab because they have been banned from Twitter for espousing hateful views.|
 
 ### Severity legend
 
@@ -52,7 +53,7 @@ Media files from the server are not stored and therefore not displayed. Can be c
 Makes posts from accounts on the blocked domain invisible to anyone who isn't following them.
 
 **Sandbox**  
-Accounts from the server can still be found, followed and interacted with, however, toots from the server do not appear in the public timelines, and notifications don't reach local users unless that user follows the author.
+Accounts from the server can still be found, followed, and interacted with. However, toots from the server do not appear in the public timelines, and notifications don't reach local users unless that user follows the author.
 
 **Suspension**  
 No content from the server is stored or displayed, no communication with the server is possible.
