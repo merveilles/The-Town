@@ -249,6 +249,14 @@ body {
   color: var(--gray-shade-5) !important;
 }
 
+.status.light .display-name strong, .status.light .status__display-name {
+  color: var(--white);
+}
+
+.status.light .status__content a {
+  color: var(--cyan);
+}
+
 .icon-button {
   color: var(--white) !important;
 }
@@ -1652,6 +1660,11 @@ a.status-card:hover {
 .report-modal {
   background: var(--gray-shade-2);
   color: var(--white);
+}
+
+.actions-modal .status {
+  background: none;
+  border-bottom-color: var(--white)!important;
 }
 
 .actions-modal ul li:not(:empty) a, .actions-modal ul li:not(:empty) a button {
