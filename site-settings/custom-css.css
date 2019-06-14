@@ -91,30 +91,30 @@ body {
   text-decoration: none;
 }
 
-.column-header__collapsible-inner .react-toggle--checked .react-toggle-thumb {
+.react-toggle--checked .react-toggle-thumb {
   border-color: var(--black);
   border-width: 2px;
 }
 
-.column-header__collapsible-inner .react-toggle .react-toggle-track {
-  background-color: var(--gray-shade-2) !important;
+.react-toggle .react-toggle-track {
+  background-color: var(--gray-shade-3) !important;
   border-color: var(--gray-shade-1);
   border-width: 2px;
 }
 
-.column-header__collapsible-inner .react-toggle:hover .react-toggle-track {
+.react-toggle:hover .react-toggle-track {
   background-color: var(--cyan) !important;
 }
 
-.column-header__collapsible-inner .setting-toggle__label {
+.setting-toggle__label {
   color: var(--gray-shade-9);
 }
 
-.column-header__collapsible-inner .react-toggle-track-x svg path {
+.react-toggle-track-x svg path {
   opacity: 0.25;
 }
 
-.column-header__collapsible-inner .react-toggle-track-check svg path {
+.react-toggle-track-check svg path {
   fill: var(--cyan) !important;
 }
 
@@ -1658,6 +1658,11 @@ a.status-card:hover {
   color: var(--white);
 }
 
+.actions-modal ul li:not(:empty) a.active, .actions-modal ul li:not(:empty) a.active button, .actions-modal ul li:not(:empty) a:active, .actions-modal ul li:not(:empty) a:active button, .actions-modal ul li:not(:empty) a:focus, .actions-modal ul li:not(:empty) a:focus button, .actions-modal ul li:not(:empty) a:hover, .actions-modal ul li:not(:empty) a:hover button {
+  background-color: var(--cyan);
+  color: var(--gray-shade-3);
+}
+
 .boost-modal__action-bar,
 .confirmation-modal__action-bar,
 .mute-modal__action-bar {
@@ -1688,14 +1693,6 @@ a.status-card:hover {
 
 .flash-message .oauth-code {
     background: var(--gray-shade-3);
-}
-
-.react-toggle--checked .react-toggle-track {
-  background-color: var(--cyan);
-}
-
-.react-toggle--checked .react-toggle-thumb {
-  border-color: var(--cyan);
 }
 
 .react-toggle-track-check svg path {
