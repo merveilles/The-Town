@@ -33,7 +33,7 @@ body {
 }
 
 .button {
-  background: var(--cyan);
+  background: var(--cyan)!important;
   color: var(--gray-shade-3);
 }
 
@@ -1036,9 +1036,15 @@ a.status-card:hover {
   background: var(--gray-shade-3);
 }
 
-.privacy-dropdown__option {
-  color: var(--gray-shade-3);
-  background: var(--white);
+.privacy-dropdown__dropdown {
+  background: var(--gray-shade-3);
+}
+
+.privacy-dropdown__option,
+.privacy-dropdown__option__content,
+.privacy-dropdown__option__content strong {
+  background: var(--gray-shade-3);
+  color: var(--white);
 }
 
 .privacy-dropdown__option:hover .privacy-dropdown__option__content,
@@ -1046,11 +1052,12 @@ a.status-card:hover {
 .privacy-dropdown__option.active .privacy-dropdown__option__content,
 .privacy-dropdown__option.active .privacy-dropdown__option__content strong,
 .privacy-dropdown__option.active .privacy-dropdown__option__content strong:hover {
-  color: var(--gray-shade-3) !important;
+  background: var(--cyan) !important;
+  color: var(--gray-shade-3);
 }
 
 .privacy-dropdown__option.active,
-.privacy-dropdown__option:hover
+.privacy-dropdown__option:hover,
 .privacy-dropdown__option.active:hover {
   background: var(--cyan);
 }
@@ -1644,13 +1651,24 @@ a.status-card:hover {
 .mute-modal,
 .report-modal {
   background: var(--gray-shade-2);
-  color: var(--gray-shade-e);
+  color: var(--white);
+}
+
+.actions-modal ul li:not(:empty) a, .actions-modal ul li:not(:empty) a button {
+  color: var(--white);
 }
 
 .boost-modal__action-bar,
 .confirmation-modal__action-bar,
 .mute-modal__action-bar {
   background: var(--gray-shade-3);
+}
+
+.boost-modal__action-bar .button,
+.confirmation-modal__action-bar .button,
+.mute-modal__action-bar .button {
+  background: var(--cyan);
+  color: var(--gray-shade-5);
 }
 
 .confirmation-modal__action-bar .confirmation-modal__cancel-button,
@@ -1660,6 +1678,7 @@ a.status-card:hover {
 .mute-modal__action-bar .confirmation-modal__secondary-button,
 .mute-modal__action-bar .mute-modal__cancel-button {
   color: var(--cyan);
+  background: none!important;
 }
 
 .flash-message {
@@ -1669,4 +1688,16 @@ a.status-card:hover {
 
 .flash-message .oauth-code {
     background: var(--gray-shade-3);
+}
+
+.react-toggle--checked .react-toggle-track {
+  background-color: var(--cyan);
+}
+
+.react-toggle--checked .react-toggle-thumb {
+  border-color: var(--cyan);
+}
+
+.react-toggle-track-check svg path {
+  fill: var(--gray-shade-3);
 }
