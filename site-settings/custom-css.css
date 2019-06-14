@@ -1661,3 +1661,12 @@ a.status-card:hover {
 .mute-modal__action-bar .mute-modal__cancel-button {
   color: var(--cyan);
 }
+
+.flash-message {
+    background: var(--gray-shade-3);
+    color: var(--gray-shade-9);
+}
+
+.flash-message .oauth-code {
+    background: var(--gray-shade-3);
+}
