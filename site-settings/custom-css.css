@@ -1726,6 +1726,11 @@ a.status-card:hover {
 }
 
 @media screen and (min-width: 630px) {
+  .compose-panel .compose-form {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
   .columns-area--mobile .notification__message {
     margin-left: 0;
     padding-top: 0;
@@ -1733,7 +1738,6 @@ a.status-card:hover {
 
   .columns-area--mobile .notification__favourite-icon-wrapper {
     left: 25px;
-    
   }
 }
 
