@@ -1724,3 +1724,11 @@ a.status-card:hover {
 .search-popout span {
   color: var(--gray-shade-a);
 }
+
+.column-link--transparent.active {
+  color: var(--cyan);
+}
+
+.navigation-panel hr {
+  border-top: 2px solid var(--gray-shade-9);
+}
