@@ -1724,3 +1724,23 @@ a.status-card:hover {
 .search-popout span {
   color: var(--gray-shade-a);
 }
+
+@media screen and (min-width: 630px) {
+  .columns-area--mobile .notification__message {
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+  .columns-area--mobile .notification__favourite-icon-wrapper {
+    left: 25px;
+    
+  }
+}
+
+.column-link--transparent.active {
+  color: var(--cyan);
+}
+
+.navigation-panel hr {
+  border-top: 2px solid var(--gray-shade-9);
+}
