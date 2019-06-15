@@ -1711,3 +1711,16 @@ a.status-card:hover {
 .react-toggle-track-check svg path {
   fill: var(--gray-shade-3);
 }
+
+.search-popout {
+  background: var(--gray-shade-2);
+}
+
+.search-popout h4,
+.search-popout em {
+  color: var(--cyan)!important;
+}
+
+.search-popout span {
+  color: var(--gray-shade-a);
+}
