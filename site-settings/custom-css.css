@@ -1642,7 +1642,11 @@ a.status-card:hover {
 }
 
 .poll__text {
-  color: var(--gray-shade-a);
+  color: var(--white);
+}
+
+.poll__link {
+  color: var(--cyan);
 }
 
 .poll__footer {
@@ -1650,6 +1654,10 @@ a.status-card:hover {
 }
 
 .poll__chart {
+  background: var(--gray-shade-3);
+}
+
+.poll__chart.leading, .poll__chart.leading .poll-text {
   background: var(--cyan);
 }
 
