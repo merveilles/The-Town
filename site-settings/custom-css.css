@@ -1642,7 +1642,11 @@ a.status-card:hover {
 }
 
 .poll__text {
-  color: var(--gray-shade-a);
+  color: var(--white);
+}
+
+.poll__link {
+  color: var(--cyan);
 }
 
 .poll__footer {
@@ -1650,6 +1654,10 @@ a.status-card:hover {
 }
 
 .poll__chart {
+  background: var(--gray-shade-3);
+}
+
+.poll__chart.leading, .poll__chart.leading .poll-text {
   background: var(--cyan);
 }
 
@@ -1739,6 +1747,13 @@ a.status-card:hover {
   .columns-area--mobile .notification__favourite-icon-wrapper {
     left: 25px;
   }
+
+  .tabs-bar__link:active,
+  .tabs-bar__link:focus,
+  .tabs-bar__link:hover {
+    background: transparent;
+    color: var(--cyan);
+  }
 }
 
 .column-link--transparent.active {
@@ -1747,4 +1762,17 @@ a.status-card:hover {
 
 .navigation-panel hr {
   border-top: 2px solid var(--gray-shade-9);
+}
+
+.compose-form .autosuggest-textarea__suggestions {
+  background: var(--gray-shade-3);
+  color: var(--white);
+}
+
+.compose-form .autosuggest-textarea__suggestions__item.selected,
+.compose-form .autosuggest-textarea__suggestions__item:active,
+.compose-form .autosuggest-textarea__suggestions__item:focus,
+.compose-form .autosuggest-textarea__suggestions__item:hover {
+  background-color: var(--cyan);
+  color: var(--black);
 }
