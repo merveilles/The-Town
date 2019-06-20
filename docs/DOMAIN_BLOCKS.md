@@ -43,6 +43,7 @@ Format and legend reused from mastodon.social, many thanks.
 |`anime.website`|Suspension|Allows for alt-right, nazism, or right-libertarianism|On investigation, saw many MAGA-related posts from multiple users.|
 |`honey.church`|Suspension|Anti-MOGAI|MOGAI stands for Marginalized Orientations, Gender identities, And Intersex. They are Pro-LGBTQ but against people who are asexual, which is still against our guidelines.|
 |`gab.com` & `gab.ai`|Suspension|Alt-right, nazism, or right-libertarian|After hearing Gab was moving to Mastodon, this was included as a pre-emptive block. Many people have accounts on Gab because they have been banned from Twitter for espousing hateful views.|
+|`social.culturewar.us`|Suspension|Alt-right, nazism, or right-libertarian|Twitter account linked to moderator had anti-SJW language.|
 
 ### Severity legend
 
