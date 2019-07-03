@@ -3,7 +3,7 @@
 In an effort to be transparent and in the spirit of collaboration, this document outlines the infrastructure and recurring cost of the [Town of Merveilles](https://merveilles.town).
 
 ## Server
-Merveilles.town is an instance of **[Mastodon](https://joinmastodon.org) version 2.8.0** that is on a virtual private server (VPS) hosted on **[DigitalOcean](http://digitalocean.com/)**. The VPS is hosted in **DigitalOcean**'s `FRA1` region, located in Frankfurt, Germany. It is a manual install, done by going through the [installation instructions](https://docs.joinmastodon.org/administration/installation/) outlined in the [documentation](https://docs.joinmastodon.org/). The VPS operating system is **64-bit [Ubuntu](https://www.ubuntu.com/) version 18.10**, created using **DigitalOcean**'s one-click install. To see the tools powering **Mastodon**, you can reference its [GitHub Page](https://github.com/tootsuite/mastodon).
+Merveilles.town is an instance of **[Mastodon](https://joinmastodon.org) version 2.9.2** that is on a virtual private server (VPS) hosted on **[DigitalOcean](http://digitalocean.com/)**. The VPS is hosted in **DigitalOcean**'s `FRA1` region, located in Frankfurt, Germany. It is a manual install, done by going through the [installation instructions](https://docs.joinmastodon.org/administration/installation/) outlined in the [documentation](https://docs.joinmastodon.org/). The VPS operating system is **64-bit [Ubuntu](https://www.ubuntu.com/) version 18.10**, created using **DigitalOcean**'s one-click install. To see the tools powering **Mastodon**, you can reference its [GitHub Page](https://github.com/tootsuite/mastodon).
 
 ## Assets
 All images, videos, and other files you can upload to the instance are hosted on **[Amazon S3](https://aws.amazon.com/s3/)**. The bucket (the location containing all assets) is hosted in the `eu-central-1` region, also located in Frankfurt, Germany.
@@ -14,6 +14,9 @@ We also have an account and receive emails at [Fastmail](https://fastmail.com/) 
 
 ## Domain Registration
 The [merveilles.town](https://merveilles.town) domain is registered through **[Dreamhost](https://dreamhost.com/)** and is set to automatically renew before the registration expires.
+
+## Funding
+We currently use a [Patreon](https://patreon.com/merveillestown) and [Ko-Fi](https://ko-fi.com/somnius) so we can get donations to keep the server running. We're investigating other options to let people donate in other ways as well.
 
 # Cost
 | Resource | Cost | Reference | Notes |
