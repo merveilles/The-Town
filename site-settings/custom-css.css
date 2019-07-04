@@ -894,6 +894,23 @@ a.status-card:hover {
   margin-top: 1px;
 }
 
+.icon-button i.fa-share-alt:before {
+  display: none;
+}
+
+.icon-button i.fa-share-alt {
+  background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,9 A2,2 0 0,0 9,11 A2,2 0 0,0 11,13 A2,2 0 0,0 13,11 A2,2 0 0,0 11,9' stroke='%23555' fill='%23555' stroke-width='0.4' stroke-linecap='round' stroke-linejoin='round'/><path d='M9,5 L9,5 L5,9 L5,13 L9,17 L13,17 L17,13 L17,9 L13,5 L9,5' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  width: 22px;
+  height: 22px;
+  background-position: 0px 0px !important;
+  background-size: 26px;
+  margin-top: 1px;
+}
+
+.icon-button i.fa-share-alt:hover {
+  background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,9 A2,2 0 0,0 9,11 A2,2 0 0,0 11,13 A2,2 0 0,0 13,11 A2,2 0 0,0 11,9' stroke='%23555' fill='%23fff' stroke-width='0.4' stroke-linecap='round' stroke-linejoin='round'/><path d='M9,5 L9,5 L5,9 L5,13 L9,17 L13,17 L17,13 L17,9 L13,5 L9,5' stroke='%23fff' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+}
+
 .detailed-status__link i.fa-retweet {
   width: 14px;
   height: 14px;
