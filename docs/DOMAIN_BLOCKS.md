@@ -44,7 +44,7 @@ Format and legend reused from mastodon.social, many thanks.
 |`honey.church`|Suspension|Anti-MOGAI|MOGAI stands for Marginalized Orientations, Gender identities, And Intersex. They are Pro-LGBTQ but against people who are asexual, which is still against our guidelines.|
 |`gab.com`, `gab.ai`, `gab.polaris-1.work`, `gab.sleeck.eu`|Suspension|Alt-right, nazism, or right-libertarian|After hearing Gab was moving to Mastodon, this was included as a pre-emptive block. Many people have accounts on Gab because they have been banned from Twitter for espousing hateful views.|
 |`social.culturewar.us`|Suspension|Alt-right, nazism, or right-libertarian|Twitter account linked to moderator had anti-SJW language.|
-|`pleroma.kiwifarms.net `|Suspension|Doxxing/hateful|Kiwifarms is a community dedicated to doxxing and harassment, which has no place here.|
+|`kiwifarms.cc`, `pleroma.kiwifarms.net `|Suspension|Doxxing/hateful|Kiwifarms is a community dedicated to doxxing and harassment, which has no place here.|
 
 ### Severity legend
 
