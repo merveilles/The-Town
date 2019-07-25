@@ -12,6 +12,7 @@ Format and legend reused from mastodon.social, many thanks.
 |`npf.mlpol.net`|Suspension|Alt-right / nazism|"Nazi Pony Fucker"|
 |`feminism.lgbt`|Suspension|Harassment|Name is extremely misleading. "All women have a right to be lewded," right in their instance description. Nope.|
 |`baraag.net`|Suspension|Allows illegal/analogous content|Instance made specifically for shota/loli art|
+|`catgirl.life`|Suspension|Allows illegal/analogous content|Instance made specifically for shota/loli art|
 |`freespeech.firedragonstudios.com`|Suspension|Allows for alt-right / nazism|The idea of a free speech instance is noble, but gives a space for alt-right leaning types to thrive.|
 |`freezepeach.xyz`|Suspension|Allows for alt-right, nazism, or right-libertarianism|The idea of a free speech instance is noble, but gives a space for alt-right leaning types to thrive.|
 |`sealion.club`|Suspension|Alt-right, nazism, or right-libertarian|
