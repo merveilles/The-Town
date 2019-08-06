@@ -1005,8 +1005,6 @@ a.status-card:hover {
 }
 
 .status-card__image-image {
-  height: 60px;
-  width: 60px;
   border-radius: 0px 0px 0px 0px !important;
 }
 
