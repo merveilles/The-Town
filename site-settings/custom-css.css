@@ -794,7 +794,6 @@ a.status-card:hover {
 .icon-button i.fa-reply-all {
   background-image: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><path d='M11,4 L18,11 L11,18 L4,11 Z' stroke='%23555' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
   display: inline-block;
-  margin-top: 3px;
 }
 
 .icon-button i.fa-reply:hover,
