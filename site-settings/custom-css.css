@@ -46,6 +46,13 @@ body {
   background: var(--gray-shade-2) !important;
 }
 
+.column-header {
+  height: 45px;
+  overflow: hidden;
+  line-height: 15px;
+  font-size: 14px;
+}
+
 .column-header>button {
   background: var(--gray-shade-3) !important;
 }
@@ -987,8 +994,9 @@ a.status-card:hover {
 }
 
 .tabs-bar {
-  margin: 2.5px;
   background: none;
+  height: 45px;
+  overflow: hidden;
 }
 
 .tabs-bar__link {
