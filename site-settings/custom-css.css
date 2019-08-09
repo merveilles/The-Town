@@ -514,6 +514,7 @@ a.floating-action-button:hover,
 .drawer__header {
   margin-bottom: 0px;
   background: var(--gray-shade-3);
+  height:45px;
 }
 
 .drawer__header a {
@@ -545,9 +546,11 @@ a.floating-action-button:hover,
 }
 
 .search__input {
-  padding: 15px 10px;
+  padding: 15px;
   background: var(--gray-shade-2);
-  color: var(--cyan);
+  color: var(--gray-shade-9);
+  height: 45px;
+  font-size: 14px;
 }
 
 .search__input:active {
