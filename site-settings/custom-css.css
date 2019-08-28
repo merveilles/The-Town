@@ -974,8 +974,10 @@ a.status-card:hover {
   color: var(--gray-shade-6);
 }
 
-.columns-area {
-  padding: 0px;
+@media screen and (max-width: 1190px) {
+  .columns-area--mobile {
+    padding: 0 !important;
+  }
 }
 
 .tabs-bar {
