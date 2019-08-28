@@ -47,7 +47,7 @@ Format and legend reused from mastodon.social, many thanks.
 |`social.culturewar.us`|Suspension|Alt-right, nazism, or right-libertarian|Twitter account linked to moderator had anti-SJW language.|
 |`kiwifarms.cc`, `pleroma.kiwifarms.net`|Suspension|Doxxing/hateful|Kiwifarms is a community dedicated to doxxing and harassment, which has no place here.|
 |`weedis.life`|Suspension|DoS Risk|This server has an ongoing bot problem where single people on other servers are getting followed by hundreds of bots. This will be removed if/when the issue is mitigated.|
-|`mstdn.jp`|Silence & Media Block|Has been a source of numerous pornbots.|
+|`mstdn.jp`|Silence & Media Block|Spam|Has been a source of numerous pornbots.|
 
 ### Severity legend
 
