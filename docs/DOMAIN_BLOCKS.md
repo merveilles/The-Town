@@ -15,6 +15,7 @@ Format and legend reused from mastodon.social, many thanks.
 |`catgirl.life`|Suspension|Allows illegal/analogous content|Instance made specifically for shota/loli art|
 |`freespeech.firedragonstudios.com`|Suspension|Allows for alt-right / nazism|The idea of a free speech instance is noble, but gives a space for alt-right leaning types to thrive.|
 |`freezepeach.xyz`|Suspension|Allows for alt-right, nazism, or right-libertarianism|The idea of a free speech instance is noble, but gives a space for alt-right leaning types to thrive.|
+|`functor.pro`|Suspension|Alt-right, nazism, or right-libertarian|Admin has a transphobic joke as their name, user name is a hate symbol.|
 |`sealion.club`|Suspension|Alt-right, nazism, or right-libertarian|
 |`pleroma.cucked.me`|Suspension|Alt-right, nazism, or right-libertarian|See name of instance.|
 |`unsafe.space`|Suspension|Alt-right, nazism, or right-libertarian|See name of instance.|
