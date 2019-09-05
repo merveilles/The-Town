@@ -25,7 +25,7 @@ We currently use a [Patreon](https://patreon.com/merveillestown) and [Ko-Fi](htt
 | Dreamhost Registration | **USD$2.92** per month | [https://www.dreamhost.com/legal/domain-registration-terms/](https://www.dreamhost.com/legal/domain-registration-terms/) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs, which costs USD$34.99 per year. |
 | Amazon S3 | About **USD$20.00** per month | [https://aws.amazon.com/free/](https://aws.amazon.com/free/) | The instance is currently on the free tier of S3, but you only pay as much as you use, which is based on the number of variables. The current amount is based on the cost from the last few months of use. |
 | Fastmail | **USD$4.17** per month | [https://www.fastmail.com/pricing/](https://www.fastmail.com/pricing/) | We need to have the Standard tier so that we can use our own domain. We pay for the yearly license, $50/year, which works out to be |
-| Mailgun | **USD$0.00** per month | [https://www.mailgun.com/pricing/](https://www.mailgun.com/pricing/) |  The free tier of SparkPost allows for 10000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
+| Mailgun | **USD$0.00** per month | [https://www.mailgun.com/pricing/](https://www.mailgun.com/pricing/) |  The free tier allows for 10000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
 
 ## Total Cost
 At least **USD$75.09 per month**. This cost can be higher based on the amount of resources the instance uses.
