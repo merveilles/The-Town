@@ -9,7 +9,7 @@ Merveilles.town is an instance of **[Mastodon](https://joinmastodon.org) version
 All images, videos, and other files you can upload to the instance are hosted on **[Amazon S3](https://aws.amazon.com/s3/)**. The bucket (the location containing all assets) is hosted in the `eu-central-1` region, also located in Frankfurt, Germany.
 
 ## Emails
-Email notifications sent from `notifications@email.merveilles.town`, used for password resets and the like, are sent through **[Sparkpost](https://www.sparkpost.com/)**.
+Email notifications sent from `notifications@email.merveilles.town`, used for password resets and the like, are sent through **[Mailgun](https://www.mailgun.com/)**.
 We also have an account and receive emails at [Fastmail](https://fastmail.com/) for our various services.
 
 ## Domain Registration
@@ -25,7 +25,7 @@ We currently use a [Patreon](https://patreon.com/merveillestown) and [Ko-Fi](htt
 | Dreamhost Registration | **USD$2.92** per month | [https://www.dreamhost.com/legal/domain-registration-terms/](https://www.dreamhost.com/legal/domain-registration-terms/) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs, which costs USD$34.99 per year. |
 | Amazon S3 | About **USD$20.00** per month | [https://aws.amazon.com/free/](https://aws.amazon.com/free/) | The instance is currently on the free tier of S3, but you only pay as much as you use, which is based on the number of variables. The current amount is based on the cost from the last few months of use. |
 | Fastmail | **USD$4.17** per month | [https://www.fastmail.com/pricing/](https://www.fastmail.com/pricing/) | We need to have the Standard tier so that we can use our own domain. We pay for the yearly license, $50/year, which works out to be |
-| Sparkpost | **USD$0.00** per month | [https://www.sparkpost.com/pricing/](https://www.sparkpost.com/pricing/) |  The free tier of SparkPost allows for 15000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
+| Mailgun | **USD$0.00** per month | [https://www.mailgun.com/pricing/](https://www.mailgun.com/pricing/) |  The free tier of SparkPost allows for 10000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
 
 ## Total Cost
 At least **USD$75.09 per month**. This cost can be higher based on the amount of resources the instance uses.
