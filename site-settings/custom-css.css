@@ -1792,3 +1792,20 @@ a.status-card:hover {
   color: var(--gray-shade-3);
   border: none;
 }
+
+.connection-prompt__connection {
+  background-color: var(--gray-shade-3);
+}
+
+.connection-prompt__connection:after {
+  background-color: var(--cyan);
+}
+
+.connection-prompt .fa-link {
+  background-color: var(--cyan);
+  color: var(--gray-shade-3);
+}
+
+.follow-prompt, .oauth-prompt {
+  color: var(--white);
+}
