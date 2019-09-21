@@ -49,7 +49,7 @@ Format and legend reused from mastodon.social, many thanks.
 |`kiwifarms.cc`, `pleroma.kiwifarms.net`|Suspension|Doxxing/hateful|Kiwifarms is a community dedicated to doxxing and harassment, which has no place here.|
 |`weedis.life`|Suspension|DoS Risk|This server has an ongoing bot problem where single people on other servers are getting followed by hundreds of bots. This will be removed if/when the issue is mitigated.|
 |`mstdn.jp`|Silence & Media Block|Spam|Has been a source of numerous pornbots.|
-
+|`social.hatthieves.es`|Suspension|Gab federation|Admins started spam following accounts, their federal timeline is nothing but Gab. No thanks.|
 ### Severity legend
 
 **Media block**  
