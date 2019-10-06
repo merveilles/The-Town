@@ -275,6 +275,7 @@ body {
 .icon-button:hover {
   color: var(--cyan) !important;
   cursor: pointer;
+  background-color: rgba(0,0,0,0);
 }
 
 .status__relative-time {
