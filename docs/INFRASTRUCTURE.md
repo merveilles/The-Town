@@ -21,7 +21,7 @@ We currently use a [Patreon](https://patreon.com/merveillestown) and [Ko-Fi](htt
 # Cost
 | Resource | Cost | Reference | Notes |
 |----------|------|-----------|-------|
-| DigitalOcean | **USD$24.00** per month | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/) | Droplets can be cheap, but Mastodon specifically needs at least 4Gb of memory to compile assets. I also have weekly backups enabled, which costs an extra 20% of the droplet cost. |
+| DigitalOcean | **USD$24.00** per month | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/) | Droplets can be cheap, but Mastodon specifically needs at least 4 gigabytes of memory to compile assets. I also have weekly backups enabled, which costs an extra 20% of the droplet cost. |
 | Dreamhost Registration | **USD$2.92** per month | [https://www.dreamhost.com/legal/domain-registration-terms/](https://www.dreamhost.com/legal/domain-registration-terms/) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs, which costs USD$34.99 per year. |
 | Amazon S3 | About **USD$20.00** per month | [https://aws.amazon.com/free/](https://aws.amazon.com/free/) | The instance is currently on the free tier of S3, but you only pay as much as you use, which is based on the number of variables. The current amount is based on the cost from the last few months of use. |
 | Fastmail | **USD$4.17** per month | [https://www.fastmail.com/pricing/](https://www.fastmail.com/pricing/) | We need to have the Standard tier so that we can use our own domain. We pay for the yearly license to save on costs, which is also $50/year. |
