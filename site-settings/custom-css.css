@@ -275,6 +275,7 @@ body {
 .icon-button:hover {
   color: var(--cyan) !important;
   cursor: pointer;
+  background-color: rgba(0,0,0,0);
 }
 
 .status__relative-time {
@@ -568,7 +569,7 @@ a.floating-action-button:hover,
 .search__input {
   padding: 15px;
   background: var(--gray-shade-2);
-  color: var(--gray-shade-9);
+  color: var(--white);
   height: 45px;
   font-size: 14px;
 }
@@ -578,7 +579,11 @@ a.floating-action-button:hover,
 }
 
 .search__input:focus {
-  background: var(--gray-shade-1);
+  background: var(--gray-shade-2);
+}
+
+.search__input::placeholder {
+    color: var(--gray-shade-7);
 }
 
 .search__icon .fa-search,
@@ -944,6 +949,16 @@ a.status-card:hover {
   color: var(--gray-shade-9);
 }
 
+.fa-retweet::before {
+  color: var(--cyan);
+  content: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22'><circle cx='11' cy='11' r='6.5' stroke='%23555555' fill='none' stroke-width='2' stroke-linecap='round'></circle></svg>") !important;
+}
+
+.status__prepend-icon {
+  color: var(--cyan);
+  margin-top: -2px;
+}
+
 .getting-started {
   background: var(--gray-shade-2);
   color: var(--gray-shade-6);
@@ -955,7 +970,7 @@ a.status-card:hover {
 }
 
 .column-link {
-  background: var(--gray-shade-3);
+  background: var(--gray-shade-3);color: white;
 }
 
 .column-link:hover {
@@ -974,10 +989,8 @@ a.status-card:hover {
   color: var(--gray-shade-6);
 }
 
-@media screen and (max-width: 1190px) {
-  .columns-area--mobile {
-    padding: 0 !important;
-  }
+.columns-area {
+  padding: 0px;
 }
 
 .tabs-bar {
@@ -1021,6 +1034,7 @@ a.status-card:hover {
 
 .column-inline-form .setting-text {
   color: var(--white);
+  background-color: var(--gray-shade-5);
 }
 
 .column-inline-form .setting-text:focus {
@@ -1461,6 +1475,10 @@ a.status-card:hover {
   color: var(--cyan);
 }
 
+.admin-wrapper .content .muted-hint, body .muted-hint, .simple_form p.hint {
+  color: var(--gray-shade-9);
+}
+
 /*
   profile directory
 */
@@ -1787,25 +1805,35 @@ a.status-card:hover {
   color: var(--black);
 }
 
+.compose-form .autosuggest-textarea__textarea::placeholder {
+    color: var(--gray-shade-7)
+}
+
 .icon-with-badge__badge {
   background: var(--cyan);
   color: var(--gray-shade-3);
   border: none;
 }
 
-.connection-prompt__connection {
-  background-color: var(--gray-shade-3);
+
+.reply-indicator__content a.unhandled-link, .status__content a.unhandled-link {
+  color: var(--cyan);
 }
 
-.connection-prompt__connection:after {
-  background-color: var(--cyan);
+/* DM styling */
+
+.conversation {
+  border-bottom: 1px solid var(--gray-shade-3);
 }
 
-.connection-prompt .fa-link {
-  background-color: var(--cyan);
-  color: var(--gray-shade-3);
+.conversation:focus {
+  background: var(--gray-shade-3);
 }
 
-.follow-prompt, .oauth-prompt {
-  color: var(--white);
+.conversation__content__names {
+  color: var(--gray-shade-9);
+}
+
+.conversation__content__relative-time {
+  color: var(--gray-shade-9);
 }
