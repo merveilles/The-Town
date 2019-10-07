@@ -1492,6 +1492,19 @@ a.status-card:hover {
   color: var(--gray-shade-9);
 }
 
+.admin-wrapper .content .muted-hint a, body .muted-hint a {
+  color: var(--cyan);
+}
+
+.admin-wrapper .content h2, .admin-wrapper .content h4 {
+  color: var(--gray-shade-c);
+  border-bottom: 1px solid var(--gray-shade-3);
+}
+
+.admin-wrapper .content h3 {
+  color: var(--gray-shade-c);
+}
+
 /*
   profile directory
 */
