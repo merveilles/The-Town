@@ -619,6 +619,15 @@ a.floating-action-button:hover,
   position: absolute;
 }
 
+.getting-started__trends h4 {
+  color: var(--gray-shade-c);
+  border-bottom: 1px solid var(--gray-shade-3);
+}
+
+.getting-started__trends .trends__item__current {
+  color: var(--gray-shade-c);
+}
+
 .trends__item__name {
   color: var(--gray-shade-6);
 }
@@ -627,7 +636,11 @@ a.floating-action-button:hover,
   color: var(--gray-shade-c);
 }
 
-.trends__item__sparkline path {
+.trends__item__sparkline path:first-child {
+  fill: rgba(114, 222, 194, .25)!important;
+}
+
+.trends__item__sparkline path:last-child {
   stroke: var(--cyan) !important;
 }
 
