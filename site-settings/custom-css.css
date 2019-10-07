@@ -1685,6 +1685,18 @@ a.status-card:hover {
   color: var(--gray-shade-2);
 }
 
+.button.button-secondary {
+  color: var(--gray-shade-2);
+  border: 1px solid var(--gray-shade-2);
+}
+
+.button.button-secondary:active,
+.button.button-secondary:focus,
+.button.button-secondary:hover {
+  color: var(--gray-shade-6);
+  border: 1px solid var(--gray-shade-2);
+}
+
 .simple_form input[type=text]:focus,
 .simple_form input[type=email]:active,
 .simple_form input[type=email]:focus,
@@ -1702,6 +1714,10 @@ a.status-card:hover {
 .simple_form input[type=text]:required:valid,
 .simple_form textarea:required:valid {
   border-color: var(--cyan);
+}
+
+.poll__input {
+  border: 1px solid var(--gray-shade-9);
 }
 
 .poll__text {
