@@ -619,6 +619,15 @@ a.floating-action-button:hover,
   position: absolute;
 }
 
+.getting-started__trends h4 {
+  color: var(--gray-shade-c);
+  border-bottom: 1px solid var(--gray-shade-3);
+}
+
+.getting-started__trends .trends__item__current {
+  color: var(--gray-shade-c);
+}
+
 .trends__item__name {
   color: var(--gray-shade-6);
 }
@@ -627,7 +636,11 @@ a.floating-action-button:hover,
   color: var(--gray-shade-c);
 }
 
-.trends__item__sparkline path {
+.trends__item__sparkline path:first-child {
+  fill: rgba(114, 222, 194, .25)!important;
+}
+
+.trends__item__sparkline path:last-child {
   stroke: var(--cyan) !important;
 }
 
@@ -1479,52 +1492,74 @@ a.status-card:hover {
   color: var(--gray-shade-9);
 }
 
+.admin-wrapper .content .muted-hint a, body .muted-hint a {
+  color: var(--cyan);
+}
+
+.admin-wrapper .content h2, .admin-wrapper .content h4 {
+  color: var(--gray-shade-c);
+  border-bottom: 1px solid var(--gray-shade-3);
+}
+
+.admin-wrapper .content h3 {
+  color: var(--gray-shade-c);
+}
+
 /*
   profile directory
 */
 
-.public-layout .container .page-header {
-  background: var(--black);
-}
-
-.public-layout .container .page-header p {
-  color: var(--cyan);
-}
-
-.public-layout .directory {
+.filter-form {
   background: var(--gray-shade-2);
 }
 
-.public-layout .directory .accounts-table tbody td {
-  border-bottom-color: var(--gray-shade-3);
+.radio-button__input {
+  border: 1px solid var(--gray-shade-9);
 }
 
-.public-layout .notice-widget p {
-  color: var(--white);
+.radio-button__input.checked {
+  border-color: var(--cyan);
+  background: var(--cyan);
 }
 
-.public-layout .directory__tag a {
-  background: var(--gray-shade-2);
-}
-
-.public-layout .directory__tag a:hover {
+.directory__card__img {
   background: var(--gray-shade-3);
 }
 
-.public-layout .directory__tag h4 .fa {
+.directory__card__bar, .directory__card__extra {
+  background: var(--gray-shade-2);
+}
+
+.directory__card__extra .account__header__content {
+  border-bottom: 1px solid var(--gray-shade-5);
+}
+
+.account__header__content, .accounts-table__count small {
+  color: var(--gray-shade-9);
+}
+
+.public-layout .header {
+  background: var(--black);
+}
+
+.public-layout .header p {
   color: var(--cyan);
 }
 
-.public-layout .directory__tag h4 small {
-  color: var(--gray-shade-a);
+/* 
+  public facing card sytle
+*/
+
+.card__bar {
+  background: var(--gray-shade-2);
 }
 
-.public-layout .accounts-table__count small {
+.card>a:active .card__bar, .card>a:focus .card__bar, .card>a:hover .card__bar {
+  background: var(--gray-shade-3);
+}
+
+.card__bar .display-name span {
   color: var(--cyan);
-}
-
-.public-layout .account .account__display-name {
-  color: var(--gray-shade-5);
 }
 
 /*
@@ -1650,6 +1685,18 @@ a.status-card:hover {
   color: var(--gray-shade-2);
 }
 
+.button.button-secondary {
+  color: var(--gray-shade-2);
+  border: 1px solid var(--gray-shade-2);
+}
+
+.button.button-secondary:active,
+.button.button-secondary:focus,
+.button.button-secondary:hover {
+  color: var(--gray-shade-6);
+  border: 1px solid var(--gray-shade-2);
+}
+
 .simple_form input[type=text]:focus,
 .simple_form input[type=email]:active,
 .simple_form input[type=email]:focus,
@@ -1667,6 +1714,10 @@ a.status-card:hover {
 .simple_form input[type=text]:required:valid,
 .simple_form textarea:required:valid {
   border-color: var(--cyan);
+}
+
+.poll__input {
+  border: 1px solid var(--gray-shade-9);
 }
 
 .poll__text {
@@ -1774,6 +1825,10 @@ a.status-card:hover {
 
   .columns-area--mobile .notification__favourite-icon-wrapper {
     left: 25px;
+  }
+
+  .tabs-bar__wrapper {
+    background: var(--gray-shade-1);
   }
 
   .tabs-bar__link:active,
