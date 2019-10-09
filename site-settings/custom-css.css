@@ -513,7 +513,7 @@ a.floating-action-button:hover,
 }
 
 .status__content a {
-  color: var(--gray-shade-c);
+  color: var(--cyan);
 }
 
 .detailed-status__action-bar {
@@ -619,7 +619,8 @@ a.floating-action-button:hover,
   position: absolute;
 }
 
-.getting-started__trends h4 {
+.getting-started__trends h4,
+.trends-widget h4 {
   color: var(--gray-shade-c);
   border-bottom: 1px solid var(--gray-shade-3);
 }
@@ -1460,7 +1461,7 @@ a.status-card:hover {
 }
 
 .admin-wrapper a.button:hover {
-  color: var(--cyan);
+  color: var(--white);
   background: var(--gray-shade-5);
 }
 
@@ -1488,21 +1489,29 @@ a.status-card:hover {
   color: var(--cyan);
 }
 
-.admin-wrapper .content .muted-hint, body .muted-hint, .simple_form p.hint {
+.admin-wrapper .content .muted-hint, body .muted-hint,
+.simple_form p.hint {
   color: var(--gray-shade-9);
 }
 
-.admin-wrapper .content .muted-hint a, body .muted-hint a {
+.admin-wrapper .content .muted-hint a,
+body .muted-hint a {
   color: var(--cyan);
 }
 
-.admin-wrapper .content h2, .admin-wrapper .content h4 {
+.admin-wrapper .content h2,
+.admin-wrapper .content h4 {
   color: var(--gray-shade-c);
   border-bottom: 1px solid var(--gray-shade-3);
 }
 
-.admin-wrapper .content h3 {
+.admin-wrapper .content h3,
+.admin-wrapper .content h6 {
   color: var(--gray-shade-c);
+}
+
+.admin-wrapper .content>p {
+  color: var(--gray-shade-9);
 }
 
 /*
