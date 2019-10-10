@@ -1795,6 +1795,10 @@ body .muted-hint a {
   background: none!important;
 }
 
+.media-modal__button--active {
+  background-color: var(--cyan);
+}
+
 .flash-message {
     background: var(--gray-shade-3);
     color: var(--gray-shade-9);
