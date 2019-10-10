@@ -283,6 +283,14 @@ body {
   background-color: rgba(0,0,0,0);
 }
 
+.compose-form__sensitive-button .icon-button {
+    color: var(--gray-shade-3)!important;
+}
+
+.compose-form__sensitive-button .icon-button:hover {
+    color: var(--gray-shade-5)!important;
+}
+
 .status__relative-time {
   color: var(--gray-shade-5) !important;
 }
