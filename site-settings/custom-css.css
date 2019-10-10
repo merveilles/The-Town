@@ -1745,7 +1745,9 @@ body .muted-hint a {
   background: var(--gray-shade-3);
 }
 
-.poll__chart.leading, .poll__chart.leading .poll-text {
+.poll__chart.leading,
+.poll__chart.leading .poll-text,
+.muted .poll__chart.leading {
   background: var(--cyan);
 }
 
