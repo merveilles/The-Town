@@ -46,6 +46,11 @@ body {
   background: var(--gray-shade-2) !important;
 }
 
+.link-button {
+  color: var(--cyan);
+  text-decoration: underline;
+}
+
 .column-header {
   height: 45px;
   overflow: hidden;
@@ -1799,6 +1804,10 @@ body .muted-hint a {
 
 .media-modal__button--active {
   background-color: var(--cyan);
+}
+
+.report-modal__comment .setting-text-label {
+  color: var(--gray-shade-c);
 }
 
 .flash-message {
