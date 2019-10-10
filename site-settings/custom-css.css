@@ -533,7 +533,7 @@ a.floating-action-button:hover,
 }
 
 .status__content a {
-  color: var(--cyan);
+  color: var(--gray-shade-c);
 }
 
 .detailed-status__action-bar {
