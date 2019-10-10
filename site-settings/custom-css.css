@@ -261,7 +261,8 @@ body {
   color: var(--gray-shade-5) !important;
 }
 
-.status.light .display-name strong, .status.light .status__display-name {
+.status.light .display-name strong,
+.status.light .status__display-name {
   color: var(--white);
 }
 
@@ -269,7 +270,8 @@ body {
   color: var(--cyan);
 }
 
-.icon-button {
+.icon-button,
+.icon-button.inverted {
   color: var(--white) !important;
 }
 
@@ -289,6 +291,11 @@ body {
 
 .compose-form__sensitive-button .icon-button:hover {
     color: var(--gray-shade-5)!important;
+}
+
+.compose-form__sensitive-button .checkbox.active {
+  border-color: var(--cyan);
+  background-color: var(--cyan);
 }
 
 .status__relative-time {
