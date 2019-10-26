@@ -16,7 +16,7 @@ We also have an account and receive emails at [Fastmail](https://fastmail.com/) 
 The [merveilles.town](https://merveilles.town) domain is registered through **[Dreamhost](https://dreamhost.com/)** and is set to automatically renew before the registration expires.
 
 ## Funding
-We currently use a [Patreon](https://patreon.com/merveillestown) and [Ko-Fi](https://ko-fi.com/somnius) so we can get donations to keep the server running. We're investigating other options to let people donate in other ways as well.
+We currently use a [Patreon](https://patreon.com/merveillestown) so we can get donations to keep the server running. We're investigating other options to let people donate in other ways as well.
 
 # Cost
 | Resource | Cost | Reference | Notes |
