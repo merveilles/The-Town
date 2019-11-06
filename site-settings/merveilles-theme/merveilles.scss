@@ -1932,3 +1932,40 @@ body .muted-hint a {
 .conversation__content__relative-time {
   color: var(--gray-shade-9);
 }
+
+/*
+  audio/video player styling 
+*/
+
+.audio-player {
+  background: var(--black);
+}
+
+.audio-player__progress-placeholder {
+  background-color: var(--cyan);
+}
+
+.audio-player__wave-placeholder {
+  background-color: var(--cyan);
+}
+
+.audio-player__waveform::before {
+  border-top: 1px solid var(--gray-shade-3);
+}
+
+.audio-player .video-player__controls {
+  background: var(--black);
+  border-top: 1px solid var(--black);
+}
+
+.video-player__volume__handle {
+  background: var(--cyan);
+}
+
+.video-player__volume::before {
+  background: var(--gray-shade-3);
+}
+
+.video-player__volume__current {
+  background: var(--cyan);
+}
