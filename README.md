@@ -45,9 +45,13 @@ This is a list of common hashtags and their meanings in the town:
 - [`#theCouture`](https://merveilles.town/tags/theCouture) - Fashion
 - [`#theVent`](https://merveilles.town/tags/theVent) - To express own frustrations
 
-### On Cross-posting
+### Cross-posting
 
 For the time being, you are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. 
+
+### Meat
+
+On this instance, we adopt non-speciesist values and keep our local timeline free of animal cruelty. We do not allow pictures of dead animals on our public timeline.
 
 ### NSFW Content
 
