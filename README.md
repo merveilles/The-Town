@@ -29,21 +29,9 @@ We want to keep the instance small. The aim of the Town is to facilitate a discu
 - One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
 - One must wear a **Black & White avatar**.
 
-### Common Hashtags
+### Introduction
 
-This is a list of common hashtags and their meanings in the town:
-- [`#theWorkshop`](https://merveilles.town/tags/theWorkshop) - Personal Projects
-- [`#theStudio`](https://merveilles.town/tags/theStudio) - Currently Listening…
-- [`#theObservatory`](https://merveilles.town/tags/theObservatory) - Visual Inspiration
-- [`#theLudarium`](https://merveilles.town/tags/theLudarium) - Games and Interactive art
-- [`#theLibrary`](https://merveilles.town/tags/theLibrary) - Literature
-- [`#theCinema`](https://merveilles.town/tags/theCinema) - Movies
-- [`#theFurnace`](https://merveilles.town/tags/theFurnace) - Programming, closer to the metal
-- [`#theFoundry`](https://merveilles.town/tags/theFoundry) - Raspberry Pi, Arduino, IoT
-- [`#theCartographer`](https://merveilles.town/tags/theCartographer) - Travel
-- [`#theGalley`](https://merveilles.town/tags/theGalley) - Cuisine
-- [`#theCouture`](https://merveilles.town/tags/theCouture) - Fashion
-- [`#theVent`](https://merveilles.town/tags/theVent) - To express own frustrations
+Upon joining the instance, we recommend that you write a first entry using the `#introduction` tag, that generally describes who you are. You should also consider pinning this to your profile.
 
 ### Cross-posting
 
@@ -53,7 +41,7 @@ For the time being, you are not allowed to automatically cross-post from other s
 
 On this instance, we adopt non-speciesist values and keep our local timeline free of animal cruelty. We do not allow pictures of dead animals on our public timeline.
 
-### NSFW Content
+### NSFW
 
 NSFW content is permitted, but only under certain conditions:
 
@@ -70,3 +58,20 @@ Posts promoting certain types of problematic content are explicitly not allowed,
 ### Blocked Domains
 
 Merveilles.town restricts content from some domains. This instance is intended to be a quiet, peaceful place to work on projects. To keep it that way, we restrict content from domains that go against our rules and Code of Conduct preemptively. Please refer to the [blocklist](https://github.com/merveilles/The-Town/blob/master/docs/DOMAIN_BLOCKS.md) to see the full list.
+
+## Common Hashtags
+
+This is a list of common hashtags and their meanings in the town:
+- [`#theLobby`](https://merveilles.town/tags/theLobby) - General conversation, introduction
+- [`#theWorkshop`](https://merveilles.town/tags/theWorkshop) - Personal Projects
+- [`#theStudio`](https://merveilles.town/tags/theStudio) - Currently Listening…
+- [`#theObservatory`](https://merveilles.town/tags/theObservatory) - Visual Inspiration
+- [`#theLudarium`](https://merveilles.town/tags/theLudarium) - Games and Interactive art
+- [`#theLibrary`](https://merveilles.town/tags/theLibrary) - Literature
+- [`#theCinema`](https://merveilles.town/tags/theCinema) - Movies
+- [`#theFurnace`](https://merveilles.town/tags/theFurnace) - Programming, closer to the metal
+- [`#theFoundry`](https://merveilles.town/tags/theFoundry) - Raspberry Pi, Arduino, IoT
+- [`#theCartographer`](https://merveilles.town/tags/theCartographer) - Travel
+- [`#theGalley`](https://merveilles.town/tags/theGalley) - Cuisine
+- [`#theCouture`](https://merveilles.town/tags/theCouture) - Fashion
+- [`#theVent`](https://merveilles.town/tags/theVent) - To express own frustrations
