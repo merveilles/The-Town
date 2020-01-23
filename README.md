@@ -35,7 +35,7 @@ Upon joining the instance, we recommend that you write a first entry using the `
 
 ### Cross-posting
 
-For the time being, you are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. 
+For the time being, you are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. Using twitter atlinks, like @jack@twitter.com is also discouraged.
 
 ### Meat
 
