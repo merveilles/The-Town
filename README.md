@@ -12,18 +12,10 @@ Resources for the [Town of Merveilles](https://merveilles.town).
 We chose to align ourselves with that of the #solarpunk movement.
 
 - A demand for technology and society to re-center around sustainability, longevity, and balance with an emphasis on renewable energy.
-
 - A focus on decentralization, community activism, social justice, and civic empowerment.
-
 - A recognition that economic, social, and ecological injustices are all deeply interconnected.
 
-## Invite Only
-
-We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. To cover for hosting and maintenance, we suggest making [a donation](https://www.patreon.com/merveillestown) to allow for [Somnius](https://merveilles.town/@somnius) to dedicate time to keeping the instance working. Any surplus will be used to improve the platform and give back to the underlying projects.
-
-<img src='https://raw.githubusercontent.com/Merveilles/The-Town/master/AUGMENT.jpg' width="400"/>
-
-## Rules
+## Instance Rules
 
 - One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
 - One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
@@ -33,6 +25,12 @@ We want to keep the instance small. The aim of the Town is to facilitate a discu
 
 Upon joining the instance, we recommend that you write a first entry using the `#introduction` tag, that generally describes who you are. You should also consider pinning this to your profile.
 
+## Invite Only
+
+We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. To cover for hosting and maintenance, we suggest making [a donation](https://www.patreon.com/merveillestown) to allow for [Somnius](https://merveilles.town/@somnius) to dedicate time to keeping the instance working. Any surplus will be used to improve the platform and give back to the underlying projects.
+
+<img src='https://raw.githubusercontent.com/Merveilles/The-Town/master/AUGMENT.jpg' width="400"/>
+
 ### Cross-posting
 
 For the time being, you are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. Using twitter atlinks, like @jack@twitter.com is also discouraged.
@@ -40,6 +38,10 @@ For the time being, you are not allowed to automatically cross-post from other s
 ### Meat
 
 On this instance, we adopt non-speciesist values and keep our local timeline free of animal cruelty. We do not allow pictures of dead animals on our public timeline.
+
+### Brands & Products
+
+While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a "brand", or to use your account to do repeated promotion of products. You're welcome to create an alt account on another instance and promote these toots, keep the local timeline free of advertisements.
 
 ### NSFW
 
