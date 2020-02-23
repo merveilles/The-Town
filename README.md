@@ -31,7 +31,7 @@ We have a [Trello Board](https://trello.com/b/kGZUUev9/the-town). This is used t
 
 Upon joining the instance, we recommend that you write a first entry using the `#introduction` tag, that generally describes who you are. You should also consider pinning this to your profile.
 
-## Invite Only
+### Invite Only
 
 We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. To cover for hosting and maintenance, we suggest making [a donation](https://www.patreon.com/merveillestown) to allow for [Somnius](https://merveilles.town/@somnius) to dedicate time to keeping the instance working. Any surplus will be used to improve the platform and give back to the underlying projects.
 
