@@ -15,6 +15,10 @@ We chose to align ourselves with that of the #solarpunk movement.
 - A focus on decentralization, community activism, social justice, and civic empowerment.
 - A recognition that economic, social, and ecological injustices are all deeply interconnected.
 
+## Updates & Improvements
+
+We have a [Trello Board](https://trello.com/b/kGZUUev9/the-town). This is used to show what improvements or adjustments are being made to the instance. Please take a look, and if you have any suggestions, feel free to reach out to the admins.
+
 ## Instance Rules
 
 - One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
