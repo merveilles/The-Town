@@ -22,10 +22,10 @@ We currently use a [Patreon](https://patreon.com/merveillestown) so we can get d
 | Resource | Cost | Reference | Notes |
 |----------|------|-----------|-------|
 | DigitalOcean | **USD$24.68** per month | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/) | Droplets can be cheap, but Mastodon specifically needs at least 4 gigabytes of memory to compile assets. I also have weekly backups enabled, which costs an extra 20% of the droplet cost. |
-| Gandi Registration | **USD $2.91** per month / **USD$34.92** per year | [https://www.gandi.net/en/domain/tld/town](https://www.gandi.net/en/domain/tld/town) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs. We pay this on a yearly basis. |
+| Gandi Registration | **USD $3.43** per month / **USD$41.21** per year | [https://www.gandi.net/en/domain/tld/town](https://www.gandi.net/en/domain/tld/town) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs. We pay this on a yearly basis. |
 | Amazon S3 | Range: **USD$20.00** to **USD$40.00** per month | [https://aws.amazon.com/free/](https://aws.amazon.com/free/) | The instance is currently on the free tier of S3, but you only pay as much as you use, which is based on the number of variables. The current amount is based on the cost from the last few months of use. |
 | Fastmail | **USD$4.17** per month / **USD$50** per year | [https://www.fastmail.com/pricing/](https://www.fastmail.com/pricing/) | We need to have the Standard tier so that we can use our own domain. We pay for the yearly license to save on costs. |
 | Mailgun | **USD$0.00** per month | [https://www.mailgun.com/pricing/](https://www.mailgun.com/pricing/) |  The free tier allows for 10000 emails sent per month, which we should be able to comfortably stay below with a smaller number of users. |
 
 ## Total Cost
-From **USD$51.76 per month** to **USD$71.76 per month**. This cost can be higher based on the amount of resources the instance uses.
+From **USD$52.28 per month** to **USD$72.28 per month**. This cost can be higher based on the amount of resources the instance uses.
