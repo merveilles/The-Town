@@ -21,7 +21,7 @@ We currently use a **[Patreon](https://patreon.com/merveillestown)** so we can g
 # Cost
 | Resource | Cost | Reference | Notes |
 |----------|------|-----------|-------|
-| DigitalOcean Droplet | **USD$40.00** per month | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/) | Droplets can be cheap, but Mastodon specifically needs at least 4 gigabytes of memory to compile assets and Elasticsearch, which powers full-text search, needs more on top of that. |
+| DigitalOcean Droplet | **USD$40.00** per month | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/) | We use the 4 vCPU, 8GB of RAM size for our droplet. Mastodon specifically needs at least 4 gigabytes of memory to compile assets, and Elasticsearch (which powers full-text search) needs at least a gigabyte of memory as well. |
 | DigitalOcean Droplet Backups | **USD$8.00** per month | [https://www.digitalocean.com/pricing/](https://www.digitalocean.com/pricing/) | Enabling backups adds 20% to the cost of the droplet, but is necessary in case something implodes. |
 | DigitalOcean Spaces | **USD$5.00** per month | [https://www.digitalocean.com/pricing/#Storage](https://www.digitalocean.com/pricing/#Storage) | We should be able to comfortably stay on the $5 tier at our current size, especially with the [CDN](https://www.digitalocean.com/docs/spaces/#cdn) enabled. |
 | Gandi Registration | **USD $3.43** per month / **USD$41.21** per year | [https://www.gandi.net/en/domain/tld/town](https://www.gandi.net/en/domain/tld/town) | The `.town` top-level domain (TLD) is a bit more expensive to register than other TLDs. We pay this on a yearly basis. |
