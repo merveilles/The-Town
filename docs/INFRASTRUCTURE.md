@@ -2,7 +2,7 @@
 
 In an effort to be transparent and in the spirit of collaboration, this document outlines the infrastructure and recurring cost of the [Town of Merveilles](https://merveilles.town).
 
-## Admins
+## Administrators
 
 The server is administrated by [Somnius](https://merveilles.town/@somnius) and [Devine](https://merveilles.town/@neauoire). [Somnius](https://merveilles.town/@somnius) maintains the server infrastructure and the funding resources, and [Devine](https://merveilles.town/@neauoire) runs the Merveilles community at large through events and their own projects. They both moderate the instance as well.
 
