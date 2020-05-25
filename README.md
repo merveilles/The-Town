@@ -23,7 +23,7 @@ We have a [Trello Board](https://trello.com/b/kGZUUev9/the-town). This is used t
 
 ## Finances
 
-This instance is funded by donations from Merveilles members, and a financial report is posted by [Somnius](https://merveilles.town/@somnius) each month that shows how much money is spent and received. If you would like to donate to keep the instance running, please feel free to do so on these platforms:
+This instance is funded by donations from Merveilles members, and a financial report is posted by [Somnius](https://merveilles.town/@somnius) each month that shows how much money is spent and received. If you would like to donate to keep the instance running, please feel free to do so on these platforms below. Any extra income over server expenses are used to fund Merveilles projects.
 
 - [Patreon](https://www.patreon.com/merveillestown)
 - [Ko-Fi](https://ko-fi.com/merveillestown)
