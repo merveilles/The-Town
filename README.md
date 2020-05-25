@@ -21,6 +21,15 @@ We chose to align ourselves with that of the #solarpunk movement.
 
 We have a [Trello Board](https://trello.com/b/kGZUUev9/the-town). This is used to show what improvements or adjustments are being made to the instance. Please take a look, and if you have any suggestions, feel free to reach out to the admins.
 
+## Finances
+
+This instance is funded by donations from Merveilles members, and a financial report is posted by [Somnius](https://merveilles.town/@somnius) each month that shows how much money is spent and received. If you would like to donate to keep the instance running, please feel free to do so on these platforms:
+
+- [Patreon](https://www.patreon.com/merveillestown)
+- [Ko-Fi](https://ko-fi.com/merveillestown)
+- [OpenCollective](https://opencollective.com/merveilles)
+- [Liberapay](https://liberapay.com/merveilles/)
+
 ## Instance Rules
 
 - One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
@@ -33,7 +42,7 @@ Upon joining the instance, we recommend that you write a first entry using the `
 
 ### Invite Only
 
-We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. To cover for hosting and maintenance, we suggest making [a donation](https://www.patreon.com/merveillestown) to allow for [Somnius](https://merveilles.town/@somnius) to dedicate time to keeping the instance working. Any surplus will be used to improve the platform and give back to the underlying projects.
+We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. So, that is why we are keeping things invite-only for the time being.
 
 ### Cross-posting
 
