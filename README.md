@@ -54,7 +54,9 @@ On this instance, we adopt non-speciesist values and keep our local timeline fre
 
 ### Brands & Products
 
-While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a "brand", or to use your account to do repeated promotion of products. You're welcome to create an alt account on another instance and promote these toots with your account, but keep the local timeline free of advertisements and toots with the explicit purpose of selling things. You may share links with purchase options, but we do not tolerate the use of the local timeline to promote the purchase of things be it software, prints, albums or else. You may link to a music release, or an artwork gallery, to share the work itself, but you may not use the local timeline to advertise the selling of that product.
+While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a "brand", or to use your account to do repeated promotion of products. You're welcome to create an alt account on another instance and promote these toots with your account, but keep the local timeline free of advertisements and toots with the explicit purpose of selling things. 
+
+You may share links with purchase options, but we do not tolerate the use of the local timeline to promote the purchase of things be it software, prints, albums or else. For example, you may link to a music release, or an artwork gallery, to share the work itself, but you may not use the local timeline to advertise the selling of that product.
 
 ### NSFW
 
