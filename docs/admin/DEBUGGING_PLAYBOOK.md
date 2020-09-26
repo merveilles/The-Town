@@ -28,7 +28,7 @@ These administrative panels are available when you are signed into an administra
 
 Here, you'll see the site settings, announcements, and other tools available only to administrators, but towards the bottom of the Admin section, you'll see two links: Sidekiq and PgHero.
 
-<img width="200" alt="xpanded admin view, highlighting Sidekiq and PgHero links" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 21.31.06.png" />
+<img width="200" alt="xpanded admin view, highlighting Sidekiq and PgHero links" src="screenshots/Screen Shot 2020-09-25 at 21.31.06.png" />
 
 #### Sidekiq
 
@@ -36,7 +36,7 @@ This is a tool used with Ruby web apps (and Ruby on Rails apps) that handles bac
 
 When you click on the "Sidekiq" link under "Administration", you should see a dashboard like this:
 
-<img width="100%" alt="Sidekiq dashboard" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 21.34.07.png" />
+<img width="100%" alt="Sidekiq dashboard" src="screenshots/Screen Shot 2020-09-25 at 21.34.07.png" />
 
 This will show you the amount of background processes that have succeeded and failed. You should generally see a whole lot more successes than failures, but because of how Mastodon works, with instances being put up and taken down all the time, there will always be a small percentage of failed processes.
 
@@ -50,7 +50,7 @@ Mastodon uses Postgres for its database, and PgHero is a tool that lets you moni
 
 When you click on the PgHero link, you should see a page that looks like this: 
 
-<img width="100%" alt="PgHero dashboard" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 21.52.25.png" />
+<img width="100%" alt="PgHero dashboard" src="screenshots/Screen Shot 2020-09-25 at 21.52.25.png" />
 
 ### DigitalOcean
 
@@ -59,7 +59,7 @@ We are running on a DigitalOcean "Droplet" (their fancy techbro word for a Virtu
 #### Graphs
 Log into DigitalOcean with the account in 1Password, and click on the droplet named `THE-TOWN`. You should be taken to a page that looks like this:
 
-<img width="100%" alt="DigitalOcean droplet dashboard" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 22.51.33.png" />
+<img width="100%" alt="DigitalOcean droplet dashboard" src="screenshots/Screen Shot 2020-09-25 at 22.51.33.png" />
 
 This will allow you to see how our server is currently doing, and will allow you to see the the changes in that information up to 14 days in the past.
 
@@ -73,13 +73,13 @@ The other utility of having a DigitalOcean droplet is that you can configure aut
 
 We already have alerts set up for all available metrics. You can see and adjust these by clicking on "Monitoring" on the left-hand panel on DigitalOcean. You should see a page like this:
 
-<img width="100%" alt="DigitalOcean configured monitors" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 23.07.52.png" />
+<img width="100%" alt="DigitalOcean configured monitors" src="screenshots/Screen Shot 2020-09-25 at 23.07.52.png" />
 
 ### Tools on the VPS
 
 These tools are available on the VPS/Droplet itself. To get there, SSH into the VPS by running `ssh root@merveilles.town`. Once you do, you should see a screen that looks like this:
 
-<img width="100%" alt="Console output after SSH'ing into merveilles.town" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 23.17.44.png" />
+<img width="100%" alt="Console output after SSH'ing into merveilles.town" src="screenshots/Screen Shot 2020-09-25 at 23.17.44.png" />
 
 Now, you can look through the server itself to see what's up, and you can restart processes as needed. Let's go over the exact tools.
 
@@ -87,7 +87,7 @@ Now, you can look through the server itself to see what's up, and you can restar
 
 `htop` is a tool that lets you see the current resource usage of your server. Open it up by simply running `htop`, and you should see this:
 
-<img width="100%" alt="Console output of htop, showing processes and current resource usage" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 23.21.54.png" />
+<img width="100%" alt="Console output of htop, showing processes and current resource usage" src="screenshots/Screen Shot 2020-09-25 at 23.21.54.png" />
 
 The way DigitalOcean calculates these metrics is slightly different from how `htop` does it, so you may see a larger amount of used memory here. However, you can use this to see what particular process is using the most memory, CPU, and whatever else. If there's a need to restart a particular process, you can also look at the PID on the left-hand side to target that particular process.
 
@@ -153,8 +153,8 @@ These are a few example situations that have happened before.
 
 - **Problem**: Sidekiq is stuck on a process and keeps endlessly retrying, preventing other processes from succeeding.
 	- **Solution**: Delete that process. It may be in "Busy", "Retries", or "Scheduled", but in all three, you can select a particular process and kill it.
-	<img width="100%" alt="Shows how to select a process by clicking the checkbox on the left" src="docs/admin/screenshots/Screen Shot 2020-09-25 at 21.43.02.png" />
-	<img width="100%" alt="Shows how to kill a process by clicking the 'kill' button" src=docs/admin./screenshots/Screen Shot 2020-09-25 at 21.44.28.png" />
+	<img width="100%" alt="Shows how to select a process by clicking the checkbox on the left" src="screenshots/Screen Shot 2020-09-25 at 21.43.02.png" />
+	<img width="100%" alt="Shows how to kill a process by clicking the 'kill' button" src=screenshots/Screen Shot 2020-09-25 at 21.44.28.png" />
 
 - **Problem**: The Elasticsearch process has stopped, causing several jobs in Sidekiq to fail.
 	- **Solution**: Restart Elasticsearch and Sidekiq. 
