@@ -154,7 +154,7 @@ These are a few example situations that have happened before.
 - **Problem**: Sidekiq is stuck on a process and keeps endlessly retrying, preventing other processes from succeeding.
 	- **Solution**: Delete that process. It may be in "Busy", "Retries", or "Scheduled", but in all three, you can select a particular process and kill it.
 	<img width="100%" alt="Shows how to select a process by clicking the checkbox on the left" src="screenshots/Screen Shot 2020-09-25 at 21.43.02.png" />
-	<img width="100%" alt="Shows how to kill a process by clicking the 'kill' button" src=screenshots/Screen Shot 2020-09-25 at 21.44.28.png" />
+	<img width="100%" alt="Shows how to kill a process by clicking the 'kill' button" src="screenshots/Screen Shot 2020-09-25 at 21.44.28.png" />
 
 - **Problem**: The Elasticsearch process has stopped, causing several jobs in Sidekiq to fail.
 	- **Solution**: Restart Elasticsearch and Sidekiq. 
