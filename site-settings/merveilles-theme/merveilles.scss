@@ -286,6 +286,10 @@ body {
   background-color: rgba(0,0,0,0);
 }
 
+.icon-button__counter {
+  display: none;
+}
+
 .compose-form__sensitive-button .icon-button {
     color: var(--gray-shade-3)!important;
 }
