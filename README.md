@@ -50,7 +50,7 @@ For the time being, you are not allowed to automatically cross-post from other s
 
 ### Meat
 
-On this instance, we adopt non-speciesist values and keep our local timeline free of animal cruelty. We do not allow pictures of dead animals on our public timeline.
+On this instance, we adopt non-speciesist values and keep our timeline free of animal cruelty. We do not allow pictures of dead animals on this instance.
 
 ### Brands & Products
 
