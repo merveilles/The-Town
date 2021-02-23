@@ -11,17 +11,21 @@ Resources for the [Town of Merveilles](https://merveilles.town).
 
 ## Instance Values
 
-We chose to align ourselves with that of the #solarpunk movement.
-
 - A demand for technology and society to re-center around sustainability, longevity, and balance with an emphasis on renewable energy.
 - A focus on decentralization, community activism, social justice, and civic empowerment.
 - A recognition that economic, social, and ecological injustices are all deeply interconnected.
+
+### Instance Rules
+
+- One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
+- One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
+- One must wear a **Black & White avatar**.
 
 ## Updates & Improvements
 
 We have a [Trello Board](https://trello.com/b/kGZUUev9/the-town). This is used to show what improvements or adjustments are being made to the instance. Please take a look, and if you have any suggestions, feel free to reach out to the admins.
 
-## Finances
+### Finances
 
 This instance is funded by donations from Merveilles members, and a financial report is posted by [Somnius](https://merveilles.town/@somnius) each month that shows how much money is spent and received. If you would like to donate to keep the instance running, please feel free to do so on these platforms below. Any extra income over server expenses are used to fund Merveilles projects.
 
@@ -30,23 +34,17 @@ This instance is funded by donations from Merveilles members, and a financial re
 - [OpenCollective](https://opencollective.com/merveilles)
 - [Liberapay](https://liberapay.com/merveilles/)
 
-## Instance Rules
+## Introduction
 
-- One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
-- One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
-- One must wear a **Black & White avatar**.
-
-### Introduction
-
-Upon joining the instance, we recommend that you write a first entry using the `#introduction` tag, that generally describes who you are. You should also consider pinning this to your profile.
+Upon joining the instance, we recommend that you first add an avatar to your profile, and write a post that describes who you are, include the `#introduction` tag in your post. You should also consider pinning this to your profile.
 
 ### Invite Only
 
-We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. So, that is why we are keeping things invite-only for the time being.
+We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. For that reason, we are keeping things invite-only for the foreseable future.
 
 ### Cross-posting
 
-For the time being, you are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. Using twitter atlinks, like @jack@twitter.com is also discouraged.
+You are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. Using twitter atlinks, like @jack@twitter.com is also discouraged.
 
 ### Meat
 
@@ -54,9 +52,7 @@ On this instance, we adopt non-speciesist values and keep our timeline free of a
 
 ### Brands & Products
 
-While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a "brand", or to use your account to do repeated promotion of products. You're welcome to create an alt account on another instance and promote these toots with your account, but keep the local timeline free of advertisements and toots with the explicit purpose of selling things. 
-
-You may share links with purchase options, but we do not tolerate the use of the local timeline to promote the purchase of things be it software, prints, albums or else. For example, you may link to a music release, or an artwork gallery, to share the work itself, but you may not use the local timeline to advertise the selling of that product.
+While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a "brand", or to use your account solely to do repeated advertisement of products. You are very welcome to add your fundaring links to your profile, and to share it on the local timeline from time to time. 
 
 ### NSFW
 
