@@ -52,7 +52,7 @@ On this instance, we adopt non-speciesist values and keep our timeline free of a
 
 ### Brands & Products
 
-While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a "brand", or to use your account solely to do repeated advertisement of products. You are very welcome to add your fundaring links to your profile, and to share it on the local timeline from time to time. 
+While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a "brand", or to use your account solely to do repeated advertisement of products. You're welcome to add fundraising links to your profile description, and to share them on the local timeline from time to time. 
 
 ### NSFW
 
