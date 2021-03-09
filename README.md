@@ -4,10 +4,16 @@
 
 Resources for the [Town of Merveilles](https://merveilles.town).
 
-### Get in Touch
+### Staff
 
+**Owners** (Own the instance itself)
 - [Somnius](https://merveilles.town/@somnius)
 - [Devine Lu Linvega](https://merveilles.town/@neauoire)
+**Administrators** (Have access to the server infrastructure)
+- [Flip](https://merveilles.town/@flip)
+**Moderators** (Have control over federation & invites)
+- [Öppen](https://merveilles.town/@oppen)
+- [Glyph](https://merveilles.town/@glyph)
 
 ## Instance Values
 
