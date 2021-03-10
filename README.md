@@ -4,10 +4,16 @@
 
 Resources for the [Town of Merveilles](https://merveilles.town).
 
-### Get in Touch
+## Staff
 
+**Owners** (Own the instance itself)
 - [Somnius](https://merveilles.town/@somnius)
 - [Devine Lu Linvega](https://merveilles.town/@neauoire)
+**Administrators** (Have access to the server infrastructure)
+- [Flip](https://merveilles.town/@flip)
+**Moderators** (Have control over federation & invites)
+- [Öppen](https://merveilles.town/@oppen)
+- [Glyph](https://merveilles.town/@glyph)
 
 ## Instance Values
 
@@ -15,11 +21,19 @@ Resources for the [Town of Merveilles](https://merveilles.town).
 - A focus on decentralization, community activism, social justice, and civic empowerment.
 - A recognition that economic, social, and ecological injustices are all deeply interconnected.
 
-### Instance Rules
+## Instance Rules
 
 - One must respect the [Code of Conduct](https://github.com/merveilles/Resources/blob/master/CONDUCT.md).
 - One must remember the [Three Gates Of Speech](http://wiki.xxiivv.com/Discourse).
 - One must wear a **Black & White avatar**.
+
+### Introduction
+
+Upon joining the instance, we recommend that you first add an avatar to your profile, and write a post that describes who you are, include the `#introduction` tag in your post. You should also consider pinning this to your profile.
+
+### Invites
+
+We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. So, that is why we are keeping things invite-only for the time being. This is intentional to reduce the overhead on the moderation team and to focus on our existing members more. You may only receive an invite if someone already on the instance recommends you to the moderation team for review.
 
 ## Updates & Improvements
 
@@ -34,17 +48,13 @@ This instance is funded by donations from Merveilles members, and a financial re
 - [OpenCollective](https://opencollective.com/merveilles)
 - [Liberapay](https://liberapay.com/merveilles/)
 
-## Introduction
-
-Upon joining the instance, we recommend that you first add an avatar to your profile, and write a post that describes who you are, include the `#introduction` tag in your post. You should also consider pinning this to your profile.
-
 ### Invite Only
 
 We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. For that reason, we are keeping things invite-only for the foreseable future.
 
 ### Cross-posting
 
-You are not allowed to automatically cross-post from other social networks. If it's found that you don't respond to cross-posted interactions on the instance, you will be considered as lurking and will be removed. Using twitter atlinks, like @jack@twitter.com is also discouraged.
+For the time being, you are not allowed to automatically cross-post from other social networks to our instance. If it's found that you don't respond to cross-posted interactions from external accounts on the instance, you will be considered as lurking and will be removed. Using twitter atlinks, like @jack@twitter.com is also discouraged.
 
 ### Meat
 
