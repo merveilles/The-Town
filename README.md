@@ -58,7 +58,7 @@ For the time being, you are not allowed to automatically cross-post from other s
 
 ### Animal Products
 
-On this instance, we adopt non-speciesist values and keep our timeline free of animal cruelty. We do not allow pictures of dead animals, or animal products, on this instance.
+On this instance, we adopt non-speciesist values and keep our timeline free of animal cruelty. We do not allow pictures of dead animals, or animal products.
 
 ### Brands & Products
 
