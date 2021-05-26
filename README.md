@@ -56,9 +56,9 @@ We want to keep the instance small. The aim of the Town is to facilitate a discu
 
 For the time being, you are not allowed to automatically cross-post from other social networks to our instance. If it's found that you don't respond to cross-posted interactions from external accounts on the instance, you will be considered as lurking and will be removed. Using twitter atlinks, like @jack@twitter.com is also discouraged.
 
-### Meat
+### Animal Products
 
-On this instance, we adopt non-speciesist values and keep our timeline free of animal cruelty. We do not allow pictures of dead animals on this instance.
+On this instance, we adopt non-speciesist values and keep our timeline free of animal cruelty. We do not allow pictures of dead animals, or animal products, on this instance.
 
 ### Brands & Products
 
