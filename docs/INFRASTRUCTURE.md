@@ -2,9 +2,16 @@
 
 In an effort to be transparent and in the spirit of collaboration, this document outlines the infrastructure and recurring cost of the [Town of Merveilles](https://merveilles.town).
 
-## Administrators
+## Staff
 
-The server is administrated by [Somnius](https://merveilles.town/@somnius) and [Devine](https://merveilles.town/@neauoire). [Somnius](https://merveilles.town/@somnius) maintains the server infrastructure and the funding resources, and [Devine](https://merveilles.town/@neauoire) runs the Merveilles community at large through events and their own projects. They both moderate the instance as well.
+- **Owners** (Own the instance itself)
+  - [Somnius](https://merveilles.town/@somnius)
+  - [Devine Lu Linvega](https://merveilles.town/@neauoire)
+- **Administrators** (Have access to the server infrastructure)
+  - [Flip](https://merveilles.town/@flip)
+- **Moderators** (Have control over federation & invites)
+  - [Öppen](https://merveilles.town/@oppen)
+  - [Glyph](https://merveilles.town/@glyph)
 
 ## Server
 Merveilles.town is an instance of **[Mastodon](https://joinmastodon.org) version 3.4.0** that is on a virtual private server (VPS), or "droplet", hosted on **[DigitalOcean](http://digitalocean.com/)**. The VPS is hosted in **DigitalOcean**'s `FRA1` region, located in Frankfurt, Germany. It is a manual install, done by going through the [installation instructions](https://docs.joinmastodon.org/admin/install/) outlined in the [documentation](https://docs.joinmastodon.org/). The VPS operating system is **64-bit [Ubuntu](https://www.ubuntu.com/) version 18.04 LTS**, created using **DigitalOcean**'s one-click install. To see the tools powering **Mastodon**, you can reference its [GitHub Page](https://github.com/tootsuite/mastodon) and [documentation](https://docs.joinmastodon.org).
