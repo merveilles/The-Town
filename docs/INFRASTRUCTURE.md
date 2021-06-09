@@ -21,7 +21,7 @@ All images, videos, and other files you can upload to the instance are hosted on
 
 ## Emails
 Email notifications sent from `notifications@email.merveilles.town`, used for password resets and the like, are sent through **[Mailgun](https://www.mailgun.com/)**.
-We also have our own email account through **[Fastmail](https://fastmail.com/)**, which both admins use to send and receive emails for the services the instance uses.
+We also have our own email account through **[Fastmail](https://fastmail.com/)**, which the staff uses to send invites and receive emails for the services the instance uses.
 
 ## Domain Registration
 The [merveilles.town](https://merveilles.town) domain is registered through **[Gandi](https://gandi.net/)** and is set to automatically renew before the registration expires.
