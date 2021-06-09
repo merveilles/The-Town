@@ -31,9 +31,9 @@ Resources for the [Town of Merveilles](https://merveilles.town).
 
 Upon joining the instance, we recommend that you first add an avatar to your profile, and write a post that describes who you are, include the `#introduction` tag in your post. You should also consider pinning this to your profile.
 
-### Invites
+### Merveilles is Invite Only
 
-We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. So, that is why we are keeping things invite-only for the time being. This is intentional to reduce the overhead on the moderation team and to focus on our existing members more. You may only receive an invite if someone already on the instance recommends you to the moderation team for review.
+We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. So, that is why we are keeping things invite-only for the time being. This is intentional to reduce the overhead on the moderation team and to focus on our existing members more. You may only receive an invite if someone already on the instance recommends you to the moderation team for review. Merveilles members should reach out to [Somnius](https://merveilles.town/@somnius) or [Devine](https://merveilles.town/@neauoire) to invite new people.
 
 ## Updates & Improvements
 
@@ -47,10 +47,6 @@ This instance is funded by donations from Merveilles members, and a financial re
 - [Ko-Fi](https://ko-fi.com/merveillestown)
 - [OpenCollective](https://opencollective.com/merveilles)
 - [Liberapay](https://liberapay.com/merveilles/)
-
-### Invite Only
-
-We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. For that reason, we are keeping things invite-only for the foreseable future.
 
 ### Cross-posting
 
@@ -66,7 +62,7 @@ While it is encouraged on the instance to share personal projects, it is discour
 
 ### NSFW
 
-NSFW content is permitted, but only under certain conditions:
+NSFW content is permitted, but only under these conditions:
 
 - Put your post under a Content Warning.
 - Include "nsfw" in the text of the Content Warning.
@@ -77,10 +73,6 @@ Posts promoting certain types of problematic content are explicitly not allowed,
   - _Clarification_: Explicit furry art, or depictions of anthropomorphized animals who have the mental capacity to consent, is allowed. However, depictions (and especially photography) of animals who cannot consent is not allowed at all. If capacity to consent is unclear, removal of a piece of content will be left to the administrators.
 
 - Pedophilia (or any sexualized depiction of children or young animals)
-
-### Blocked Domains
-
-Merveilles.town restricts content from some domains. This instance is intended to be a quiet, peaceful place to work on projects. To keep it that way, we restrict content from domains that go against our rules and Code of Conduct preemptively. Please refer to the [blocklist](https://github.com/merveilles/The-Town/blob/master/docs/DOMAIN_BLOCKS.md) to see the full list.
 
 ## Common Hashtags
 
@@ -98,3 +90,7 @@ This is a list of common hashtags and their meanings in the town:
 - [`#theGalley`](https://merveilles.town/tags/theGalley) - Cuisine
 - [`#theCouture`](https://merveilles.town/tags/theCouture) - Fashion
 - [`#theVent`](https://merveilles.town/tags/theVent) - To express own frustrations
+
+### Blocked Domains
+
+Merveilles.town restricts content from some domains. This instance is intended to be a quiet, peaceful place to work on projects. To keep it that way, we restrict content from domains that go against our rules and Code of Conduct preemptively. Please refer to the [blocklist](https://merveilles.town/about/more#unavailable-content) to see the full list.
