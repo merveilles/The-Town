@@ -67,12 +67,7 @@ NSFW content is permitted, but only under these conditions:
 - Put your post under a Content Warning.
 - Include "nsfw" in the text of the Content Warning.
 
-Posts promoting certain types of problematic content are explicitly not allowed, including:
-
-- Bestiality (any sexualized depiction of non-cognizant animals)
-  - _Clarification_: Explicit furry art, or depictions of anthropomorphized animals who have the mental capacity to consent, is allowed. However, depictions (and especially photography) of animals who cannot consent is not allowed at all. If capacity to consent is unclear, removal of a piece of content will be left to the administrators.
-
-- Pedophilia (or any sexualized depiction of children or young animals)
+Do not post any content that is illegal in the US or EU.
 
 ## Common Hashtags
 
