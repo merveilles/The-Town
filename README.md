@@ -35,6 +35,10 @@ Upon joining the instance, we recommend that you first add an avatar to your pro
 
 We want to keep the instance small. The aim of the Town is to facilitate a discussion on the various projects created by members of the Merveilles community. So, that is why we are keeping things invite-only for the time being. This is intentional to reduce the overhead on the moderation team and to focus on our existing members more. You may only receive an invite if someone already on the instance recommends you to the moderation team for review. Merveilles members should reach out to [Somnius](https://merveilles.town/@somnius) or [Devine](https://merveilles.town/@neauoire) to invite new people.
 
+### Local Feed
+
+The local feed is used by members of the instance to share posts that invite conversations at a slower pace than the home timeline. We try to keep it free of threads, shitposts, testing posts, and public replies. We invite anyone wanting to make a public thread, to first make a public post, and unlited subsequent posts. That way, someone may click on the visible first post, to read more into the discussion. If you are to share pictures in the local feed, we suggest that you add an image description.
+
 ## Updates & Improvements
 
 We have a [Trello Board](https://trello.com/b/kGZUUev9/the-town). This is used to show what improvements or adjustments are being made to the instance. Please take a look, and if you have any suggestions, feel free to reach out to the admins.
