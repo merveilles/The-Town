@@ -37,7 +37,7 @@ We want to keep the instance small. The aim of the Town is to facilitate a discu
 
 ### Local Feed
 
-The local feed is used by members of the instance to share posts that invite conversations at a slower pace than the home timeline. We try to keep it free of threads, shitposts, testing posts, and public replies. We invite anyone wanting to make a public thread, to first make a public post, and unlited subsequent posts. That way, someone may click on the visible first post, to read more into the discussion. If you are to share pictures in the local feed, we suggest that you add an image description.
+The local feed is used by members of the instance to share posts that invite conversations at a slower pace than the home timeline. We try to keep it free of threads, shitposts, testing posts, and public replies. We invite anyone wanting to make a public thread, to first make a public post, and unlisted subsequent posts. That way, someone may click on the visible first post, to read more into the discussion. If you are to share pictures in the local feed, we suggest that you add an image description.
 
 ## Updates & Improvements
 
