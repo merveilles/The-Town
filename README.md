@@ -14,6 +14,7 @@ Resources for the [Town of Merveilles](https://merveilles.town).
 - **Moderators** (Have control over federation & invites)
   - [Öppen](https://merveilles.town/@oppen)
   - [Glyph](https://merveilles.town/@glyph)
+  - [Rekka Bellum](https://merveilles.town/@rek)
 
 ## Instance Values
 
