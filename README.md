@@ -57,9 +57,9 @@
 <p>While it is encouraged on the instance to share personal projects, it is discouraged to use the platform as a
   &quot;brand&quot;, or to use your account solely to do repeated advertisement of products. You&#39;re welcome to add
   fundraising links to your profile description, and to share them on the local timeline from time to time. </p>
-<h3 id="jackpotmaxxing">Jackpotmaxxing</h3>
-<p>In our effort to build a haven from technocratic projects at odds with the instance values of social and ecologic justice, we do not use the local feed to debate technologies of control that centralizes power and accelerate the devastation of the natural world. Conversations on the potential of cryptocurrencies, chatbots and slopcoding are best held elsewhere.</p>
-<p>Posts about AI, critical or not, and slopcoded projects will get flagged and removed from the local feed, use unlisted or followers-only.</p>
+<h3 id="jackpotmaxxing">Jackpotmaxxing (AI/Crypto)</h3>
+<p>In our effort to build a haven from technocratic projects at odds with the instance values of social and ecologic justice, we do not use our local feed to debate technologies of control that centralizes power and accelerate the devastation of the natural world. This includes the potential of cryptocurrencies, AI chatbots and slopcoding.
+<p>When posting about topics like AI or crypto, critical or not (including AI-slopcoded projects) please use either "unlisted" or "followers-only" so those posts do not appear on the local timeline. Otherwise, your post will get flagged and removed from the local feed.</p>
 <h3 id="nsfw">NSFW</h3>
 <p>NSFW content is permitted, but only under these conditions:</p>
 <ul>
@@ -106,6 +106,4 @@
 <h3 id="blocked-domains">Blocked Domains</h3>
 <p>Merveilles.town restricts content from some domains. This instance is intended to be a quiet, peaceful place to work
   on projects. To keep it that way, we restrict content from domains that go against our rules and Code of Conduct
-  preemptively. Please refer to the <a href="#unavailable-content">blocklist</a> to
-  see the full list.</p>
-
+  preemptively.</p>
